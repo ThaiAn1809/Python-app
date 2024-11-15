@@ -25,7 +25,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">   border: 2px solid rgba(255, 255, 255, 0.3); /* Light border color for modern look */
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 20px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 10px; /* Padding to create space around the text */
     color: white; /* Text color */
@@ -36,25 +36,6 @@
     </property>
     <property name="placeholderText">
      <string>Password</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>800</width>
-      <height>600</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../img/login_and_register_background.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_2">
@@ -68,7 +49,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">   border: 2px solid rgba(255, 255, 255, 0.3); /* Light border color for modern look */
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 20px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 10px; /* Padding to create space around the text */
     color: white; /* Text color */
@@ -91,7 +72,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">  background-color: rgb(255, 222, 166); /* Light peach color */
+     <string notr="true">  background-color: rgb(251, 206, 181); /* Light peach color */
     border: none;
     border-radius: 15px; /* Rounded corners */
     padding: 10px 20px; /* Padding for better appearance */
@@ -111,15 +92,15 @@
      <rect>
       <x>300</x>
       <y>400</y>
-      <width>101</width>
-      <height>40</height>
+      <width>111</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">    display: flex;
     align-items: center;
-    font-size: 10px; /* Smaller font size for label text */
-    color: rgb(255, 239, 179); /* White color for text to match the background */
+    font-size: 13px; /* Smaller font size for label text */
+    color: rgb(251, 206, 181);/* White color for text to match the background */
     cursor: pointer;</string>
     </property>
     <property name="text">
@@ -129,22 +110,116 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>410</y>
-      <width>80</width>
+      <x>450</x>
+      <y>400</y>
+      <width>121</width>
       <height>18</height>
      </rect>
     </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: none; /* No background */
+    border: none; /* No border */
+    color: #ffffff; /* White text color to match the background */
+    font-size: 13px; /* Small, readable text */
+    cursor: pointer; /* Pointer cursor to indicate clickability */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold for visibility */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover effects */</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Forgot Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>312</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/eye-solid.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-175</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/login_bg.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>355</x>
+      <y>180</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">display: block; /* To make it take up its own line */
+    text-align: center; /* Center the label */
+    font-size: 20px; /* Medium font size for readability */
+    color: #ffffff; /* White color to stand out against background */
+    font-weight: normal; /* Normal weight to keep it subtle */
+   </string>
+    </property>
+    <property name="text">
+     <string>Have an account?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>257</x>
+      <y>-20</y>
+      <width>341</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/WHITE.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <zorder>label</zorder>
+   <zorder>label_2</zorder>
    <zorder>lineEdit</zorder>
    <zorder>lineEdit_2</zorder>
    <zorder>pushButton</zorder>
    <zorder>checkBox</zorder>
    <zorder>pushButton_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -152,7 +227,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
