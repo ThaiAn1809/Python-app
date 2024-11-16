@@ -62,7 +62,7 @@
      <string>Username</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="login">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -350,7 +350,7 @@
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="register_2">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -449,7 +449,7 @@
    <zorder>label_2</zorder>
    <zorder>lineEdit</zorder>
    <zorder>lineEdit_2</zorder>
-   <zorder>pushButton</zorder>
+   <zorder>login</zorder>
    <zorder>checkBox</zorder>
    <zorder>pushButton_2</zorder>
    <zorder>label_3</zorder>
@@ -460,7 +460,7 @@
    <zorder>lineEdit_3</zorder>
    <zorder>lineEdit_4</zorder>
    <zorder>lineEdit_5</zorder>
-   <zorder>pushButton_3</zorder>
+   <zorder>register_2</zorder>
    <zorder>label_8</zorder>
    <zorder>comboBox</zorder>
   </widget>
