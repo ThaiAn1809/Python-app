@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1024</width>
+    <height>768</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,19 +17,19 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>300</y>
-      <width>270</width>
-      <height>40</height>
+      <x>240</x>
+      <y>390</y>
+      <width>601</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 20px; /* Rounded corners */
+    border-radius: 35px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 10px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 10px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 25px &quot;Segoe UI&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Password</enum>
@@ -41,19 +41,19 @@
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>250</y>
-      <width>270</width>
-      <height>40</height>
+      <x>240</x>
+      <y>300</y>
+      <width>601</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 20px; /* Rounded corners */
+    border-radius: 35px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 10px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 10px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 25px &quot;Segoe UI&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Normal</enum>
@@ -65,18 +65,18 @@
    <widget class="QPushButton" name="login">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>370</y>
-      <width>270</width>
-      <height>40</height>
+      <x>240</x>
+      <y>530</y>
+      <width>601</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">  background-color: rgb(251, 206, 181); /* Light peach color */
     border: none;
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 35px; /* Rounded corners */
     padding: 10px 20px; /* Padding for better appearance */
-    font-size: 13px; /* Font size to make text readable */
+    font-size: 25px; /* Font size to make text readable */
     font-weight: bold;
     color: rgb(0, 0, 0); /* White text color */
     cursor: pointer;
@@ -90,16 +90,16 @@
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>344</y>
-      <width>131</width>
+      <x>250</x>
+      <y>480</y>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">    spacing: 8px;                  /* Space between the checkbox indicator and label */
     color: #F6D7C3;                /* Peach color for the label text */
-    font-size: 13px;               /* Font size for the label text */
+    font-size: 25px;               /* Font size for the label text */
     font-weight: bold; </string>
     </property>
     <property name="text">
@@ -109,10 +109,10 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>345</y>
-      <width>121</width>
-      <height>18</height>
+      <x>640</x>
+      <y>475</y>
+      <width>211</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="autoFillBackground">
@@ -122,7 +122,7 @@
      <string notr="true">background: none; /* No background */
     border: none; /* No border */
     color: #ffffff; /* White text color to match the background */
-    font-size: 13px; /* Small, readable text */
+    font-size: 25px; /* Small, readable text */
     cursor: pointer; /* Pointer cursor to indicate clickability */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make the text bold for visibility */
@@ -135,10 +135,10 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>312</y>
-      <width>21</width>
-      <height>16</height>
+      <x>780</x>
+      <y>410</y>
+      <width>41</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -154,10 +154,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>-175</x>
+      <x>-20</x>
       <y>0</y>
-      <width>1000</width>
-      <height>600</height>
+      <width>1121</width>
+      <height>768</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -176,16 +176,16 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>180</y>
-      <width>161</width>
+      <x>390</x>
+      <y>230</y>
+      <width>311</width>
       <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">display: block; /* To make it take up its own line */
     text-align: center; /* Center the label */
-    font-size: 20px; /* Medium font size for readability */
+    font-size: 40px; /* Medium font size for readability */
     color: #ffffff; /* White color to stand out against background */
     font-weight: normal; /* Normal weight to keep it subtle */
    </string>
@@ -197,8 +197,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>-80</y>
+      <x>380</x>
+      <y>-50</y>
       <width>331</width>
       <height>331</height>
      </rect>
@@ -219,231 +219,22 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>130</y>
-      <width>61</width>
+      <x>480</x>
+      <y>170</y>
+      <width>131</width>
       <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">display: block; /* To make it take up its own line */
     text-align: center; /* Center the label */
-    font-size: 20px; /* Medium font size for readability */
+    font-size: 40px; /* Medium font size for readability */
     color: #ffffff; /* White color to stand out against background */
     font-weight: normal; /* Normal weight to keep it subtle */</string>
     </property>
     <property name="text">
      <string>LOGIN</string>
     </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>130</y>
-      <width>91</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">display: block; /* To make it take up its own line */
-    text-align: center; /* Center the label */
-    font-size: 20px; /* Medium font size for readability */
-    color: #ffffff; /* White color to stand out against background */
-    font-weight: normal; /* Normal weight to keep it subtle */
-   </string>
-    </property>
-    <property name="text">
-     <string>REGISTER</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>490</x>
-      <y>170</y>
-      <width>211</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">display: block; /* To make it take up its own line */
-    text-align: center; /* Center the label */
-    font-size: 20px; /* Medium font size for readability */
-    color: #ffffff; /* White color to stand out against background */
-    font-weight: normal; /* Normal weight to keep it subtle */
-   </string>
-    </property>
-    <property name="text">
-     <string>Don't have an account?</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>220</y>
-      <width>161</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 20px; /* Rounded corners */
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
-    padding: 10px; /* Padding to create space around the text */
-    color: white; /* Text color */
-    font: 10px &quot;Segoe UI&quot;; /* Font family and size */</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::EchoMode::Normal</enum>
-    </property>
-    <property name="placeholderText">
-     <string>Username</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>270</y>
-      <width>270</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 20px; /* Rounded corners */
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
-    padding: 10px; /* Padding to create space around the text */
-    color: white; /* Text color */
-    font: 10px &quot;Segoe UI&quot;; /* Font family and size */</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::EchoMode::Normal</enum>
-    </property>
-    <property name="placeholderText">
-     <string>Email</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>320</y>
-      <width>270</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 20px; /* Rounded corners */
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
-    padding: 10px; /* Padding to create space around the text */
-    color: white; /* Text color */
-    font: 10px &quot;Segoe UI&quot;; /* Font family and size */</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::EchoMode::Password</enum>
-    </property>
-    <property name="placeholderText">
-     <string>Password</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="register_2">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>370</y>
-      <width>270</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">  background-color: rgb(251, 206, 181); /* Light peach color */
-    border: none;
-    border-radius: 15px; /* Rounded corners */
-    padding: 10px 20px; /* Padding for better appearance */
-    font-size: 13px; /* Font size to make text readable */
-    font-weight: bold;
-    color: rgb(0, 0, 0); /* White text color */
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */</string>
-    </property>
-    <property name="text">
-     <string>REGISTER</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>130</y>
-      <width>41</width>
-      <height>341</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    position: absolute;
-    top: 50%; /* Center the label vertically */
-    left: 50%;
-    transform: translate(-50%, -50%); /* Offset to truly center it */
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.100); /* Background to make the text stand out */
-    padding: 5px 10px;
-    border-radius: 15px; /* Rounded edges for a modern look */</string>
-    </property>
-    <property name="text">
-     <string>or</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>220</y>
-      <width>81</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">width: 160px; /* Adjust width as needed */
-    padding: 10px; /* Padding for comfort */
-    border-radius: 20px; /* Rounded corners for a consistent modern look */
-        border: 1px solid #cccccc; /* Light gray border */
-    background: rgba(255, 255, 255, 0.1); /* Light transparent background to match form aesthetics */
-    color: #ffffff; /* White text color to match the rest of the form */
-    font-size: 13px;
-    outline: none; /* Remove default outline */
-    cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for hover and focus effects */</string>
-    </property>
-    <property name="placeholderText">
-     <string/>
-    </property>
-    <item>
-     <property name="text">
-      <string>Male</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Female</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Prefer not to say</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string/>
-     </property>
-    </item>
    </widget>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
@@ -455,22 +246,14 @@
    <zorder>label_3</zorder>
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
-   <zorder>label_6</zorder>
-   <zorder>label_7</zorder>
-   <zorder>lineEdit_3</zorder>
-   <zorder>lineEdit_4</zorder>
-   <zorder>lineEdit_5</zorder>
-   <zorder>register_2</zorder>
-   <zorder>label_8</zorder>
-   <zorder>comboBox</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>21</height>
+     <width>1024</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
