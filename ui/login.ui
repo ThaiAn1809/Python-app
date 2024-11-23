@@ -23,13 +23,21 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>-1</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
     border-radius: 35px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
-    padding: 10px; /* Padding to create space around the text */
+    padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 25px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 20px &quot;Segoe UI&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Password</enum>
@@ -47,13 +55,21 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>-1</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
     border-radius: 35px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
-    padding: 10px; /* Padding to create space around the text */
+    padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 25px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 20px &quot;Segoe UI&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Normal</enum>
@@ -71,14 +87,21 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Parkinsans Medium</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">  background-color: rgb(251, 206, 181); /* Light peach color */
+     <string notr="true">  background-color: rgb(38, 41, 108); /* Light peach color */
     border: none;
     border-radius: 35px; /* Rounded corners */
     padding: 10px 20px; /* Padding for better appearance */
     font-size: 25px; /* Font size to make text readable */
     font-weight: bold;
-    color: rgb(0, 0, 0); /* White text color */
+    color: rgb(255, 255, 255); /* White text color */
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
     transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */</string>
@@ -96,9 +119,17 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Parkinsans Medium</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">    spacing: 8px;                  /* Space between the checkbox indicator and label */
-    color: #F6D7C3;                /* Peach color for the label text */
+    color: ;                /* Peach color for the label text */
+color: rgb(255, 255, 255);
     font-size: 25px;               /* Font size for the label text */
     font-weight: bold; </string>
     </property>
@@ -115,13 +146,22 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Parkinsans Medium</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
     <property name="styleSheet">
      <string notr="true">background: none; /* No background */
     border: none; /* No border */
-    color: #ffffff; /* White text color to match the background */
+    color: rgb(255, 255, 255); /* White text color to match the background */
     font-size: 25px; /* Small, readable text */
     cursor: pointer; /* Pointer cursor to indicate clickability */
     text-decoration: none; /* Remove underline */
@@ -173,34 +213,13 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>230</y>
-      <width>311</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">display: block; /* To make it take up its own line */
-    text-align: center; /* Center the label */
-    font-size: 40px; /* Medium font size for readability */
-    color: #ffffff; /* White color to stand out against background */
-    font-weight: normal; /* Normal weight to keep it subtle */
-   </string>
-    </property>
-    <property name="text">
-     <string>Have an account?</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>-50</y>
-      <width>331</width>
-      <height>331</height>
+      <x>385</x>
+      <y>-70</y>
+      <width>300</width>
+      <height>300</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -210,7 +229,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../img/WHITE.png</pixmap>
+     <pixmap>../img/LOGO.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -219,11 +238,18 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>170</y>
-      <width>131</width>
+      <x>340</x>
+      <y>200</y>
+      <width>401</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Parkinsans Medium</family>
+      <pointsize>-1</pointsize>
+      <bold>false</bold>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">display: block; /* To make it take up its own line */
@@ -233,7 +259,7 @@
     font-weight: normal; /* Normal weight to keep it subtle */</string>
     </property>
     <property name="text">
-     <string>LOGIN</string>
+     <string>Log in to The Player</string>
     </property>
    </widget>
    <zorder>label</zorder>
@@ -244,7 +270,6 @@
    <zorder>checkBox</zorder>
    <zorder>pushButton_2</zorder>
    <zorder>label_3</zorder>
-   <zorder>label_4</zorder>
    <zorder>label_5</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -253,7 +278,7 @@
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
