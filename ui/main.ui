@@ -17,1163 +17,13 @@
    <string notr="true">background-color: rgb(0, 0, 0);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QStackedWidget" name="stackedWidget">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>0</y>
-      <width>801</width>
-      <height>641</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.542, y1:0, x2:0.547, y2:1, stop:0 rgba(51, 86, 118, 255), stop:1 rgba(18, 18, 18, 255))</string>
-    </property>
-    <property name="currentIndex">
-     <number>0</number>
-    </property>
-    <widget class="QWidget" name="page">
-     <widget class="QPushButton" name="pushButton_6">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>20</y>
-        <width>35</width>
-        <height>35</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">    background: #282828;
-    border: none;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    color: white;
-    font-size: 16px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/iconizer-chevron-left-solid.svg</normaloff>../img/iconizer-chevron-left-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_7">
-      <property name="geometry">
-       <rect>
-        <x>90</x>
-        <y>20</y>
-        <width>35</width>
-        <height>35</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">    background: #282828;
-    border: none;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    color: white;
-    font-size: 16px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/iconizer-chevron-right-solid.svg</normaloff>../img/iconizer-chevron-right-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_4">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>70</y>
-        <width>241</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">    font-size: 26px;
-    font-weight: bold;
-    color: white;
-	background-color: rgba(255, 255, 255, 0);
-    font-size: 26px; /* Slightly larger */
-    margin: 10px 0; /* Add spacing */</string>
-      </property>
-      <property name="text">
-       <string>Good morning</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="comboBox">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>20</y>
-        <width>201</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-border-top-left-radius : 5px;
-border-top-right-radius : 2px;
-border-bottom-left-radius:20px;
-border-bottom-right-radius : 3px;
-    border: none;;/* Fully rounded corners */
-    padding: 5px 10px; /* Inner padding for the text */
-    background-color: #181818; /* Dark background */
-    color: white; /* Text color */
-    font-size: 14px;
-    height: 30px; /* Fixed height */
-</string>
-      </property>
-      <item>
-       <property name="text">
-        <string>Your account</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Your 2nd account</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>...</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QPushButton" name="pushButton_8">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>140</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_9">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>140</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_10">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>140</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_11">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>240</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_12">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>240</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_13">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>240</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>360</y>
-        <width>291</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(255, 255, 255, 0);
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Your heavy rotation</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_14">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>420</y>
-        <width>171</width>
-        <height>201</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name][author]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_15">
-      <property name="geometry">
-       <rect>
-        <x>230</x>
-        <y>420</y>
-        <width>171</width>
-        <height>201</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name][author]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_16">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>420</y>
-        <width>171</width>
-        <height>201</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name][author]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_17">
-      <property name="geometry">
-       <rect>
-        <x>610</x>
-        <y>420</y>
-        <width>171</width>
-        <height>201</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name][author]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_18">
-      <property name="geometry">
-       <rect>
-        <x>670</x>
-        <y>380</y>
-        <width>141</width>
-        <height>24</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>14</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(255, 255, 255, 0);
-border: 0px solid;</string>
-      </property>
-      <property name="text">
-       <string>SEE MORE</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="page_2">
-     <widget class="QComboBox" name="comboBox_2">
-      <property name="geometry">
-       <rect>
-        <x>640</x>
-        <y>20</y>
-        <width>151</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: none;
-    border-radius: 15px;           /* Rounded corners */
-    padding: 0 35px 0 10px;        /* Padding: Top/Bottom = 0, Right = 35px, Left = 10px */
-    background-color: #1e1e1e;     /* Combo box background */
-    color: white;                  /* Text color */
-    font-size: 14px;               /* Font size for the text */
-    height: 40px;                  /* Fixed height of the combo box */
-    icon-size: 20px 20px;          /* Adjust the size of the icons inside the items */
-    line-height: 40px;  </string>
-      </property>
-      <item>
-       <property name="text">
-        <string>Your account</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Your 2nd account</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>...</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QPushButton" name="pushButton_21">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>140</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_6">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>70</y>
-        <width>241</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">    font-size: 26px;
-    font-weight: bold;
-    color: white;
-	background-color: rgba(255, 255, 255, 0);
-    font-size: 26px; /* Slightly larger */
-    margin: 10px 0; /* Add spacing */</string>
-      </property>
-      <property name="text">
-       <string>Good morning</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_23">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>20</y>
-        <width>35</width>
-        <height>35</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">    background: #282828;
-    border: none;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    color: white;
-    font-size: 16px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/iconizer-chevron-left-solid.svg</normaloff>../img/iconizer-chevron-left-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_24">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>140</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_25">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>240</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_26">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>140</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_28">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>240</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_29">
-      <property name="geometry">
-       <rect>
-        <x>90</x>
-        <y>20</y>
-        <width>35</width>
-        <height>35</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">    background: #282828;
-    border: none;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    color: white;
-    font-size: 16px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/iconizer-chevron-right-solid.svg</normaloff>../img/iconizer-chevron-right-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_30">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>240</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_27">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>340</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_31">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>340</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_32">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>340</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_33">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>440</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_34">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>440</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_35">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>440</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_36">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>540</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_37">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>540</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_38">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>540</y>
-        <width>241</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-        <pointsize>-1</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgba(57,73,88,255);
-border: 0px solid;
-border-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */</string>
-      </property>
-      <property name="text">
-       <string>[Song name]</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-      </property>
-     </widget>
-    </widget>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>40</y>
-      <width>200</width>
-      <height>41</height>
+      <x>20</x>
+      <y>0</y>
+      <width>71</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="font">
@@ -1181,389 +31,19 @@ border-radius: 15px;
       <family>Parkinsans Medium</family>
       <pointsize>-1</pointsize>
      </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::LeftToRight</enum>
     </property>
     <property name="styleSheet">
      <string notr="true">    background: #181818;
     border: none;
     color: white;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
-    padding: 10px;
-	border-top-left-radius : 5px;
-border-top-right-radius : 20px;
-border-bottom-left-radius:5px;
-border-bottom-right-radius : 2px;</string>
-    </property>
-    <property name="text">
-     <string>Home</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-house-solid.svg</normaloff>../img/iconizer-house-solid.svg</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>80</y>
-      <width>200</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Parkinsans Medium</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background: #181818;
+    padding: 0px;
     border: none;
-    color: white;
-    text-align: left;
-    font-size: 14px;
-    padding: 10px;
-    border-radius: 4px;</string>
-    </property>
-    <property name="text">
-     <string>Search</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-magnifying-glass-solid.svg</normaloff>../img/iconizer-magnifying-glass-solid.svg</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>120</y>
-      <width>200</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Parkinsans Medium</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background: #181818;
-    border: none;
-    color: white;
-    text-align: left;
-    font-size: 14px;
-    padding: 10px;
-	border-top-left-radius : 5px;
-border-top-right-radius : 2px;
-border-bottom-left-radius:5px;
-border-bottom-right-radius : 20px;</string>
-    </property>
-    <property name="text">
-     <string>Your Library</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-lines-leaning-solid.svg</normaloff>../img/iconizer-lines-leaning-solid.svg</iconset>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>190</y>
-      <width>200</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Parkinsans Medium</family>
-     </font>
-    </property>
-    <property name="text">
-     <string>PLAYLISTS</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>69</x>
-      <y>240</y>
-      <width>141</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Parkinsans Medium</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background: #282828;
-	border-top-left-radius : 5px;
-border-top-right-radius : 20px;
-border-bottom-left-radius:5px;
-border-bottom-right-radius : 20px;
-    padding: 10px;
-    font-size: 14px;
-    color: white;
-    text-align: left;</string>
-    </property>
-    <property name="text">
-     <string>Create Playlist</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>240</y>
-      <width>61</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-top-left-radius : 20px;
-border-top-right-radius : 2px;
-border-bottom-left-radius:20px;
-border-bottom-right-radius : 2px;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>69</x>
-      <y>310</y>
-      <width>141</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Parkinsans Medium</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background: #282828;
-	border-top-left-radius : 5px;
-border-top-right-radius : 20px;
-border-bottom-left-radius:5px;
-border-bottom-right-radius : 20px;
-    padding: 10px;
-    font-size: 14px;
-    color: white;
-    text-align: left;</string>
-    </property>
-    <property name="text">
-     <string>Liked Songs</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_5">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>310</y>
-      <width>61</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.178771, y1:0.165, x2:1, y2:1, stop:0 rgba(62, 0, 255, 255), stop:1 rgba(255, 255, 255, 255));
-border: 0px solid;
-border-top-left-radius : 20px;
-border-top-right-radius : 2px;
-border-bottom-left-radius:20px;
-border-bottom-right-radius : 2px;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-heart-solid.svg</normaloff>../img/iconizer-heart-solid.svg</iconset>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>640</y>
-      <width>1025</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background-color: rgb(27, 27, 27); /* Dark background for the player */
-    border-top: 1px solid #282828; /* Slight border for separation */
-    padding: 10px; /* Padding for inner components */
-    height: 70px; /* Fixed height for the player */
-    color: white; /* Text color */
-    display: flex;
-    align-items: center;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>-10</x>
-      <y>607</y>
-      <width>140</width>
-      <height>140</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    width: 50px;
-    height: 50px;
-    border-radius: 4px; /* Slight rounding for the album art */
-	background-color: rgba(255, 255, 255, 0);
-    background-size: cover; /* Ensure the image fits */
-    background-position: center; /* Center the album art */</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../img/LOGO.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>650</y>
-      <width>91</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Parkinsans Medium</family>
-      <pointsize>-1</pointsize>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    margin: 0;
-	background-color: rgba(255, 255, 255, 0);
-</string>
-    </property>
-    <property name="text">
-     <string>Song name</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>680</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Parkinsans Medium</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">	font-size: 12px;
-    color: #b3b3b3; /* Lighter text for the artist name */
-    margin: 0;
-	background-color: rgba(255, 255, 255, 0);</string>
-    </property>
-    <property name="text">
-     <string>Author</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_19">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>660</y>
-      <width>31</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    margin: 0 10px;
-    cursor: pointer;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-shuffle-solid.svg</normaloff>../img/iconizer-shuffle-solid.svg</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_20">
-    <property name="geometry">
-     <rect>
-      <x>600</x>
-      <y>660</y>
-      <width>31</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    margin: 0 10px;
-    cursor: pointer;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-forward-step-solid.svg</normaloff>../img/iconizer-forward-step-solid.svg</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_22">
-    <property name="geometry">
-     <rect>
-      <x>512</x>
-      <y>650</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">	display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px; /* Spacing between sections */</string>
+    border-radius: 16px;</string>
     </property>
     <property name="text">
      <string/>
@@ -1574,177 +54,276 @@ border-bottom-right-radius : 2px;
     </property>
     <property name="iconSize">
      <size>
-      <width>80</width>
-      <height>80</height>
+      <width>150</width>
+      <height>150</height>
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_39">
+   <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>670</y>
-      <width>31</width>
-      <height>24</height>
+      <x>130</x>
+      <y>30</y>
+      <width>83</width>
+      <height>29</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">    background: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    margin: 0 10px;
-    cursor: pointer;</string>
+    <property name="text">
+     <string>TV Shows</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>30</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Movies</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>30</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>My List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Recently Added</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>982</x>
+      <y>30</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../img/iconizer-volume-high-solid.svg</normaloff>../img/iconizer-volume-high-solid.svg</iconset>
+      <normaloff>../img/iconizer-magnifying-glass-solid.svg</normaloff>../img/iconizer-magnifying-glass-solid.svg</iconset>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_40">
+   <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>660</y>
-      <width>31</width>
-      <height>24</height>
+      <x>40</x>
+      <y>370</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">    background: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    margin: 0 10px;
-    cursor: pointer;</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Play</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../img/iconizer-backward-step-solid.svg</normaloff>../img/iconizer-backward-step-solid.svg</iconset>
+      <normaloff>../img/play-solid.svg</normaloff>../img/play-solid.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_42">
+   <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
      <rect>
-      <x>990</x>
-      <y>670</y>
-      <width>31</width>
-      <height>24</height>
+      <x>190</x>
+      <y>370</y>
+      <width>121</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">    background: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    margin: 0 10px;
-    cursor: pointer;</string>
+     <string notr="true">background-color: rgba(91, 91, 91, 100);
+color: rgb(255,255,255);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>My List</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../img/iconizer-up-right-and-down-left-from-center-solid.svg</normaloff>../img/iconizer-up-right-and-down-left-from-center-solid.svg</iconset>
+      <normaloff>../img/iconizer-plus-solid.svg</normaloff>../img/iconizer-plus-solid.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>900</x>
-      <y>673</y>
-      <width>91</width>
+      <x>30</x>
+      <y>430</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Popular on The Player</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>480</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Something</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>480</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Something</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>480</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Something</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>480</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Something</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>480</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Something</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>480</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Something</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>90</y>
+      <width>991</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>260</y>
+      <width>63</width>
       <height>20</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">
-    height: 4px; /* Thickness of the slider */
-    background: #535353; /* Gray background for the track */
-    border-radius: 2px; /* Rounded corners for the slider */
-    position: relative;
-    cursor: pointer;
-    margin: 10px 15px; /* Spacing around the slider */</string>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Orientation::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QSlider" name="horizontalSlider_2">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>690</y>
-      <width>511</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-    height: 4px; /* Thickness of the slider */
-    background: #535353; /* Gray background for the track */
-    border-radius: 2px; /* Rounded corners for the slider */
-    position: relative;
-    cursor: pointer;
-    margin: 10px 15px; /* Spacing around the slider */</string>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Orientation::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_41">
-    <property name="geometry">
-     <rect>
-      <x>660</x>
-      <y>660</y>
-      <width>31</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">    background: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    margin: 0 10px;
-    cursor: pointer;</string>
-    </property>
     <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-repeat-solid.svg</normaloff>../img/iconizer-repeat-solid.svg</iconset>
+     <string>N</string>
     </property>
    </widget>
-   <zorder>label_7</zorder>
-   <zorder>stackedWidget</zorder>
+   <zorder>pushButton_15</zorder>
    <zorder>pushButton</zorder>
    <zorder>pushButton_2</zorder>
    <zorder>pushButton_3</zorder>
-   <zorder>label</zorder>
-   <zorder>label_2</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>label_3</zorder>
    <zorder>pushButton_5</zorder>
-   <zorder>label_8</zorder>
-   <zorder>label_9</zorder>
-   <zorder>label_10</zorder>
-   <zorder>pushButton_19</zorder>
-   <zorder>pushButton_20</zorder>
-   <zorder>pushButton_22</zorder>
-   <zorder>pushButton_39</zorder>
-   <zorder>pushButton_40</zorder>
-   <zorder>pushButton_42</zorder>
-   <zorder>horizontalSlider</zorder>
-   <zorder>horizontalSlider_2</zorder>
-   <zorder>pushButton_41</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>label</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>pushButton_10</zorder>
+   <zorder>pushButton_11</zorder>
+   <zorder>pushButton_12</zorder>
+   <zorder>pushButton_13</zorder>
+   <zorder>pushButton_14</zorder>
+   <zorder>label_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -1752,7 +331,7 @@ border-bottom-right-radius : 2px;
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
