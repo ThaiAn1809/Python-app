@@ -29,21 +29,19 @@
     <property name="font">
      <font>
       <family>Parkinsans Medium</family>
-      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="layoutDirection">
      <enum>Qt::LayoutDirection::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">    background: #181818;
-    border: none;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    padding: 0px;
-    border: none;
-    border-radius: 16px;</string>
+     <string notr="true">    background-image: url('netflix-logo.png'); /* Netflix logo */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;  /* Set appropriate width */
+    height: 30px;  /* Set appropriate height */
+
+</string>
     </property>
     <property name="text">
      <string/>
@@ -62,16 +60,25 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>30</y>
-      <width>83</width>
-      <height>29</height>
+      <x>220</x>
+      <y>20</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Parkinsans Medium</family>
+      <pointsize>-1</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+    color: white;                         /* White text */
+    font-size: 14px;                      /* Text size */
+    padding: 10px;                        /* Padding for spacing */
+	border-radius: 10px;</string>
     </property>
     <property name="text">
      <string>Movies</string>
@@ -80,16 +87,25 @@
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>30</y>
-      <width>83</width>
-      <height>29</height>
+      <x>340</x>
+      <y>20</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Parkinsans Medium</family>
+      <pointsize>-1</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+    color: white;                         /* White text */
+    font-size: 14px;                      /* Text size */
+    padding: 10px;                        /* Padding for spacing */
+	border-radius: 10px;</string>
     </property>
     <property name="text">
      <string>My List</string>
@@ -98,8 +114,8 @@
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>982</x>
-      <y>30</y>
+      <x>870</x>
+      <y>20</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -152,13 +168,53 @@
        <rect>
         <x>120</x>
         <y>20</y>
-        <width>91</width>
+        <width>101</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px; 
+background-color: rgb(0, 0, 0);</string>
       </property>
       <item>
        <property name="text">
         <string>Genres</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item 3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item 4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item 5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item 6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item 7</string>
        </property>
       </item>
      </widget>
@@ -190,6 +246,15 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 15px;    /* Top-left corner rounded */
+    border-top-right-radius: 0px;    /* Top-right corner not rounded */
+    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
+    border-bottom-left-radius: 15px; 
+	
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -202,6 +267,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -216,6 +285,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -228,6 +301,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -242,6 +319,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -254,6 +335,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -268,6 +353,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -280,6 +369,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -313,6 +406,15 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 15px;    /* Top-left corner rounded */
+    border-top-right-radius: 0px;    /* Top-right corner not rounded */
+    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
+    border-bottom-left-radius: 15px; 
+	
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -325,6 +427,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -339,6 +445,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -351,6 +461,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -365,6 +479,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -377,6 +495,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -391,6 +513,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -403,6 +529,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -436,6 +566,15 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 15px;    /* Top-left corner rounded */
+    border-top-right-radius: 0px;    /* Top-right corner not rounded */
+    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
+    border-bottom-left-radius: 15px; 
+	
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -448,6 +587,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -462,6 +605,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -474,6 +621,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -488,6 +639,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -500,6 +655,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -514,6 +673,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -526,6 +689,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -559,6 +726,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -571,6 +742,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -585,6 +760,15 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 15px;    /* Top-left corner rounded */
+    border-top-right-radius: 0px;    /* Top-right corner not rounded */
+    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
+    border-bottom-left-radius: 15px; 
+	
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -597,6 +781,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -611,6 +799,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -623,6 +815,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -637,6 +833,10 @@
         <height>91</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
+      </property>
       <property name="text">
        <string>Movie</string>
       </property>
@@ -649,6 +849,10 @@
         <width>131</width>
         <height>91</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
@@ -720,30 +924,39 @@
        <rect>
         <x>180</x>
         <y>280</y>
-        <width>121</width>
+        <width>141</width>
         <height>41</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Parkinsans Medium</family>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgba(91, 91, 91, 100);
-color: rgb(255,255,255);</string>
+       <string notr="true">    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: white;                               /* White text */
+    font-size: 14px;                            /* Font size */
+    font-weight: bold;                          /* Bold text */
+    border: none;                               /* No border */
+    border-radius: 10px;                        /* Rounded corners */
+    padding: 10px 20px;                         /* Padding for size */
+    text-align: left;                           /* Align text to the left */
+</string>
       </property>
       <property name="text">
        <string>More Info</string>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../img/circle-info-solid.svg</normaloff>../img/circle-info-solid.svg</iconset>
+        <normaloff>../img/info-badge.svg</normaloff>../img/info-badge.svg</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>20</width>
-        <height>20</height>
+        <width>30</width>
+        <height>30</height>
        </size>
       </property>
      </widget>
@@ -762,7 +975,8 @@ color: rgb(255,255,255);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);
+       <string notr="true">border-radius: 10px;
+background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
@@ -785,7 +999,7 @@ color: rgb(0, 0, 0);</string>
         <x>10</x>
         <y>340</y>
         <width>241</width>
-        <height>31</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="font">
@@ -794,8 +1008,15 @@ color: rgb(0, 0, 0);</string>
         <pointsize>14</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">
+    background-color: transparent;       /* Transparent background */
+    border: none;                        /* No borders */
+    padding: 10px;                       /* Padding for spacing */
+</string>
+      </property>
       <property name="text">
-       <string>Popular on The Player</string>
+       <string>Your next watch</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_9">
@@ -803,7 +1024,7 @@ color: rgb(0, 0, 0);</string>
        <rect>
         <x>10</x>
         <y>390</y>
-        <width>161</width>
+        <width>171</width>
         <height>221</height>
        </rect>
       </property>
@@ -811,6 +1032,15 @@ color: rgb(0, 0, 0);</string>
        <font>
         <family>Parkinsans Medium</family>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 15px;    /* Top-left corner rounded */
+    border-top-right-radius: 0px;    /* Top-right corner not rounded */
+    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
+    border-bottom-left-radius: 15px; 
+	
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Something</string>
@@ -821,7 +1051,7 @@ color: rgb(0, 0, 0);</string>
        <rect>
         <x>190</x>
         <y>390</y>
-        <width>161</width>
+        <width>171</width>
         <height>221</height>
        </rect>
       </property>
@@ -829,6 +1059,10 @@ color: rgb(0, 0, 0);</string>
        <font>
         <family>Parkinsans Medium</family>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Something</string>
@@ -839,7 +1073,7 @@ color: rgb(0, 0, 0);</string>
        <rect>
         <x>370</x>
         <y>390</y>
-        <width>161</width>
+        <width>171</width>
         <height>221</height>
        </rect>
       </property>
@@ -847,6 +1081,10 @@ color: rgb(0, 0, 0);</string>
        <font>
         <family>Parkinsans Medium</family>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Something</string>
@@ -857,7 +1095,7 @@ color: rgb(0, 0, 0);</string>
        <rect>
         <x>550</x>
         <y>390</y>
-        <width>161</width>
+        <width>171</width>
         <height>221</height>
        </rect>
       </property>
@@ -865,6 +1103,10 @@ color: rgb(0, 0, 0);</string>
        <font>
         <family>Parkinsans Medium</family>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Something</string>
@@ -875,7 +1117,7 @@ color: rgb(0, 0, 0);</string>
        <rect>
         <x>730</x>
         <y>390</y>
-        <width>161</width>
+        <width>171</width>
         <height>221</height>
        </rect>
       </property>
@@ -883,6 +1125,10 @@ color: rgb(0, 0, 0);</string>
        <font>
         <family>Parkinsans Medium</family>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Something</string>
@@ -893,7 +1139,7 @@ color: rgb(0, 0, 0);</string>
        <rect>
         <x>910</x>
         <y>390</y>
-        <width>161</width>
+        <width>171</width>
         <height>221</height>
        </rect>
       </property>
@@ -901,6 +1147,10 @@ color: rgb(0, 0, 0);</string>
        <font>
         <family>Parkinsans Medium</family>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Something</string>
@@ -911,14 +1161,23 @@ color: rgb(0, 0, 0);</string>
        <rect>
         <x>70</x>
         <y>150</y>
-        <width>161</width>
+        <width>191</width>
         <height>31</height>
        </rect>
       </property>
       <property name="font">
        <font>
         <family>Parkinsans Medium</family>
+        <pointsize>-1</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+    color: white;                     /* White text */
+    font-size: 14px;                  /* Text size */
+    text-align: left;                 /* Left-aligned */
+    text-shadow: 1px 1px 5px #000000; /* Subtle shadow for visibility */
+</string>
       </property>
       <property name="text">
        <string>Description of the movie</string>
@@ -927,7 +1186,7 @@ color: rgb(0, 0, 0);</string>
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-20</x>
         <y>20</y>
         <width>991</width>
         <height>351</height>
@@ -961,18 +1220,62 @@ color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>30</y>
-      <width>83</width>
-      <height>29</height>
+      <y>20</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Parkinsans Medium</family>
+      <pointsize>-1</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+    color: white;                         /* White text */
+    font-size: 14px;                      /* Text size */
+    padding: 10px;                        /* Padding for spacing */
+	border-radius: 10px;</string>
     </property>
     <property name="text">
      <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_46">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: transparent;       /* Transparent background */
+    border: 2px solid white;             /* Thin white border */
+    border-radius: 15px;                 /* Circular shape (width = height) */
+    padding: 10px;                       /* Space for the icon */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../Pictures/Screenshots/doge.webp</normaloff>../../../../Pictures/Screenshots/doge.webp</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
     </property>
    </widget>
    <zorder>stackedWidget</zorder>
@@ -981,6 +1284,7 @@ color: rgb(0, 0, 0);</string>
    <zorder>pushButton_5</zorder>
    <zorder>pushButton_7</zorder>
    <zorder>pushButton_16</zorder>
+   <zorder>pushButton_46</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
