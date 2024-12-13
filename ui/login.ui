@@ -140,7 +140,7 @@ color: rgb(255, 255, 255);
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>640</x>
+      <x>610</x>
       <y>475</y>
       <width>211</width>
       <height>31</height>
@@ -216,10 +216,10 @@ color: rgb(255, 255, 255);
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>-30</y>
-      <width>300</width>
-      <height>300</height>
+      <x>430</x>
+      <y>50</y>
+      <width>221</width>
+      <height>221</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -238,8 +238,8 @@ color: rgb(255, 255, 255);
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>210</y>
+      <x>350</x>
+      <y>220</y>
       <width>401</width>
       <height>51</height>
      </rect>
@@ -287,7 +287,31 @@ color: rgb(255, 255, 255);
      <string>Don't have account? Register!</string>
     </property>
    </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>641</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border: 2px solid #cccccc; /* Light gray border */
+    border-radius: 30px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
+    padding: 15px; /* Padding to create space around the text */
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+   </widget>
    <zorder>label</zorder>
+   <zorder>frame</zorder>
    <zorder>label_2</zorder>
    <zorder>password_input</zorder>
    <zorder>email_input</zorder>
@@ -304,7 +328,7 @@ color: rgb(255, 255, 255);
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
