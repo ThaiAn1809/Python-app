@@ -70,6 +70,9 @@ class Register(QMainWindow):
         self.btn_register = self.findChild(QPushButton, 'register_btn')
         self.btn_login = self.findChild(QPushButton, 'login_btn')
         
+        self.btn_login.clicked.connect(self.show_login)
+        self.btn_register.clicked.connect(self.register)
+        
     def register(self):
         email = self.email_input.text()
         name = self.name_input.text()
@@ -108,6 +111,10 @@ class Register(QMainWindow):
             msg = Alert()
             msg.success_message('Registration successful')
             self.close()
+    def show_login(self):
+        self.login = Login()
+        self.login.show()
+        self.close()
             
         
                 
