@@ -57,7 +57,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="nav_movie_btn">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -84,7 +84,7 @@
      <string>Movies</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btn_mylist_btn">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -141,7 +141,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="Movies">
      <widget class="QLabel" name="label_5">
@@ -1216,7 +1216,7 @@ background-color: rgb(0, 0, 0);</string>
      <zorder>label_3</zorder>
     </widget>
    </widget>
-   <widget class="QPushButton" name="pushButton_16">
+   <widget class="QPushButton" name="nav_home_btn">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -1280,10 +1280,10 @@ background-color: rgb(0, 0, 0);</string>
    </widget>
    <zorder>stackedWidget</zorder>
    <zorder>pushButton</zorder>
-   <zorder>pushButton_3</zorder>
-   <zorder>pushButton_5</zorder>
+   <zorder>nav_movie_btn</zorder>
+   <zorder>btn_mylist_btn</zorder>
    <zorder>pushButton_7</zorder>
-   <zorder>pushButton_16</zorder>
+   <zorder>nav_home_btn</zorder>
    <zorder>pushButton_46</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
