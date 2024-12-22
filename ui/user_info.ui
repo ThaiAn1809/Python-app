@@ -43,38 +43,12 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>170</y>
-      <width>101</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: transparent;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../img/iconizer-id-card-solid.svg</normaloff>../img/iconizer-id-card-solid.svg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>100</width>
-      <height>100</height>
-     </size>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>260</y>
-      <width>81</width>
+      <x>440</x>
+      <y>290</y>
+      <width>161</width>
       <height>41</height>
      </rect>
     </property>
@@ -84,15 +58,19 @@
       <pointsize>22</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
-     <string>Info</string>
+     <string>Info card</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>340</y>
+      <y>370</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -102,6 +80,10 @@
       <family>Parkinsans Medium</family>
       <pointsize>16</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Username:</string>
@@ -111,7 +93,7 @@
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>390</y>
+      <y>420</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -121,6 +103,10 @@
       <family>Parkinsans Medium</family>
       <pointsize>16</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Password:</string>
@@ -130,7 +116,7 @@
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>440</y>
+      <y>470</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -140,6 +126,10 @@
       <family>Parkinsans Medium</family>
       <pointsize>16</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Gender:</string>
@@ -149,7 +139,7 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>340</y>
+      <y>370</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -159,6 +149,10 @@
       <family>Parkinsans Medium</family>
       <pointsize>16</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>TEXT</string>
@@ -168,7 +162,7 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>390</y>
+      <y>420</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -178,6 +172,10 @@
       <family>Parkinsans Medium</family>
       <pointsize>16</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>TEXT</string>
@@ -187,7 +185,7 @@
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>440</y>
+      <y>470</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -198,6 +196,10 @@
       <pointsize>16</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>TEXT</string>
     </property>
@@ -206,13 +208,14 @@
     <property name="geometry">
      <rect>
       <x>209</x>
-      <y>149</y>
+      <y>169</y>
       <width>601</width>
-      <height>391</height>
+      <height>381</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 30px;</string>
+     <string notr="true">border-radius: 30px;
+background-color: rgb(56, 56, 56);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Shape::StyledPanel</enum>
@@ -221,9 +224,31 @@
      <enum>QFrame::Shadow::Raised</enum>
     </property>
    </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>190</y>
+      <width>111</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/iconizer-id-card-solid.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
    <zorder>frame</zorder>
    <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
@@ -231,6 +256,7 @@
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
    <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -238,7 +264,7 @@
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
