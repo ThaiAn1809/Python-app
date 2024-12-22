@@ -1,4 +1,5 @@
-from PyQt6.QtWidgets import QMainWindow,QApplication,QLineEdit,QMessageBox, QPushButton
+from PyQt6.QtWidgets import QMainWindow,QApplication,QLineEdit,QMessageBox, QPushButton, QStackedWidget
+from PyQt6.QtGui import QIcon
 from PyQt6 import uic
 import sys
 import database
@@ -25,9 +26,19 @@ class Login(QMainWindow):
         self.password_input = self.findChild(QLineEdit, 'password_input')
         self.btn_login = self.findChild(QPushButton, 'login_btn')
         self.btn_register = self.findChild(QPushButton, 'register_btn')
+        self.btn_eye = self.findChild(QPushButton, 'eye_btn')
         
         self.btn_login.clicked.connect(self.login)
         self.btn_register.clicked.connect(self.show_register)
+        self.btn_eye.clicked.connect(lambda: self.hiddenOrShow(self.password_input, self.btn_eye))
+        
+    def hiddenOrShow(self, input:QLineEdit, button:QPushButton):
+        if input.echoMode() == QLineEdit.EchoMode.Password:
+            input.setEchoMode(QLineEdit.EchoMode.Normal)
+            button.setIcon(QIcon("img/eye-solid.svg"))
+        else:
+            input.setEchoMode(QLineEdit.EchoMode.Password)
+            button.setIcon(QIcon("img/eye-slash-solid.svg"))
         
     def login(self):
         email = self.email_input.text()
@@ -46,6 +57,7 @@ class Login(QMainWindow):
         user = database.find_user_by_email_and_password(email,password)
         if user:
             msg = Alert()
+            self.show_main(user["id"])
             msg.success_message('Login succesful')
             
         else:
@@ -57,10 +69,15 @@ class Login(QMainWindow):
         self.register.show()
         self.close()
         
+    def show_main(self, user_id):
+        self.main = Main(user_id)
+        self.main.show()
+        self.close()
+        
 class Register(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.load_ui('ui/register.ui',self)
+        uic.loadUi('ui/register.ui',self)
         
         self.email_input = self.findChild(QLineEdit, 'email_input')
         self.name_input = self.findChild(QLineEdit, 'name_input')
@@ -69,6 +86,19 @@ class Register(QMainWindow):
         
         self.btn_register = self.findChild(QPushButton, 'register_btn')
         self.btn_login = self.findChild(QPushButton, 'login_btn')
+        self.btn_eye1 = self.findChild(QPushButton, 'eye_btn1')
+        self.btn_eye2 = self.findChild(QPushButton, 'eye_btn2')
+        
+        self.btn_eye1.clicked.connect(lambda: self.hiddenOrShow(self.password_input, self.btn_eye1))
+        self.btn_eye2.clicked.connect(lambda: self.hiddenOrShow(self.confirm_password_input, self.btn_eye2))
+        
+    def hiddenOrShow(self, input:QLineEdit, button:QPushButton):
+        if input.echoMode() == QLineEdit.EchoMode.Password:
+            input.setEchoMode(QLineEdit.EchoMode.Normal)
+            button.setIcon(QIcon("img/eye-solid.svg"))
+        else:
+            input.setEchoMode(QLineEdit.EchoMode.Password)
+            button.setIcon(QIcon("img/eye-slash-solid.svg"))
         
     def register(self):
         email = self.email_input.text()
@@ -109,7 +139,31 @@ class Register(QMainWindow):
             msg.success_message('Registration successful')
             self.close()
             
+    def show_login(self):
+        self.login = Login()
+        self.login.show()
+        self.close()
         
+            
+class Main(QMainWindow):
+    def __init__(self, user_id):
+        super().__init__()
+        uic.loadUi('ui/main.ui',self)
+
+        self.nav_home_btn = self.findChild(QPushButton,'nav_home_btn')
+        self.nav_movie_btn = self.findChild(QPushButton,'nav_movie_btn')
+        self.btn_mylist_btn = self.findChild(QPushButton,'btn_mylist_btn')
+        self.stackedWidget = self.findChild(QStackedWidget,'stackedWidget')
+        self.stackedWidget.setCurrentIndex(2)
+        
+        
+        self.nav_home_btn.clicked.connect(lambda: self.navigateScreen(2))
+        self.nav_movie_btn.clicked.connect(lambda: self.navigateScreen(0))
+        self.btn_mylist_btn.clicked.connect(lambda: self.navigateScreen(1))
+
+      
+    def navigateScreen(self, page:int):
+        self.stackedWidget.setCurrentIndex(page)
                 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
