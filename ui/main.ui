@@ -141,7 +141,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="Movies">
      <widget class="QLabel" name="label_5">
@@ -256,7 +256,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_6">
@@ -273,7 +283,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_15">
@@ -290,7 +310,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_17">
@@ -307,7 +337,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_18">
@@ -324,7 +364,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_19">
@@ -341,7 +391,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_20">
@@ -358,7 +418,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_21">
@@ -376,6 +446,16 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QLabel" name="label_7">
@@ -416,7 +496,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_23">
@@ -433,7 +523,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_24">
@@ -450,7 +550,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_25">
@@ -467,7 +577,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_26">
@@ -484,7 +604,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_27">
@@ -501,7 +631,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_28">
@@ -518,7 +658,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_29">
@@ -536,6 +686,16 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QLabel" name="label_8">
@@ -576,7 +736,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_31">
@@ -593,7 +763,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_32">
@@ -610,7 +790,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_33">
@@ -627,7 +817,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_34">
@@ -644,7 +844,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_35">
@@ -661,7 +871,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_36">
@@ -678,7 +898,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_37">
@@ -696,6 +926,16 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QLabel" name="label_9">
@@ -733,6 +973,16 @@ background-color: rgb(0, 0, 0);</string>
       <property name="text">
        <string>Movie</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_39">
       <property name="geometry">
@@ -749,6 +999,16 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_38">
@@ -772,6 +1032,16 @@ background-color: rgb(0, 0, 0);</string>
       <property name="text">
        <string>Movie</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_41">
       <property name="geometry">
@@ -788,6 +1058,16 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_42">
@@ -806,6 +1086,16 @@ background-color: rgb(0, 0, 0);</string>
       <property name="text">
        <string>Movie</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_43">
       <property name="geometry">
@@ -822,6 +1112,16 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_44">
@@ -840,6 +1140,16 @@ background-color: rgb(0, 0, 0);</string>
       <property name="text">
        <string>Movie</string>
       </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_45">
       <property name="geometry">
@@ -856,6 +1166,16 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Movie</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>100</height>
+       </size>
       </property>
      </widget>
     </widget>
@@ -906,7 +1226,7 @@ background-color: rgb(0, 0, 0);</string>
         <x>70</x>
         <y>100</y>
         <width>241</width>
-        <height>31</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="font">
@@ -915,8 +1235,12 @@ background-color: rgb(0, 0, 0);</string>
         <pointsize>16</pointsize>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">    background-color: rgba(255, 255, 255, 0.00001); /* Semi-transparent background */
+color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
-       <string>Name of the movie</string>
+       <string>Klaus</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_8">
@@ -997,7 +1321,7 @@ color: rgb(0, 0, 0);</string>
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>340</y>
+        <y>380</y>
         <width>241</width>
         <height>41</height>
        </rect>
@@ -1023,7 +1347,7 @@ color: rgb(0, 0, 0);</string>
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>390</y>
+        <y>420</y>
         <width>171</width>
         <height>221</height>
        </rect>
@@ -1043,14 +1367,24 @@ color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Something</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>1000</width>
+        <height>2000</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_10">
       <property name="geometry">
        <rect>
         <x>190</x>
-        <y>390</y>
+        <y>420</y>
         <width>171</width>
         <height>221</height>
        </rect>
@@ -1065,14 +1399,24 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Something</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>1000</width>
+        <height>2000</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_11">
       <property name="geometry">
        <rect>
         <x>370</x>
-        <y>390</y>
+        <y>420</y>
         <width>171</width>
         <height>221</height>
        </rect>
@@ -1087,14 +1431,24 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Something</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>1000</width>
+        <height>2000</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_12">
       <property name="geometry">
        <rect>
         <x>550</x>
-        <y>390</y>
+        <y>420</y>
         <width>171</width>
         <height>221</height>
        </rect>
@@ -1109,14 +1463,24 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Something</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>1000</width>
+        <height>2000</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_13">
       <property name="geometry">
        <rect>
         <x>730</x>
-        <y>390</y>
+        <y>420</y>
         <width>171</width>
         <height>221</height>
        </rect>
@@ -1131,14 +1495,24 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Something</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>1000</width>
+        <height>2000</height>
+       </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_14">
       <property name="geometry">
        <rect>
         <x>910</x>
-        <y>390</y>
+        <y>420</y>
         <width>171</width>
         <height>221</height>
        </rect>
@@ -1153,7 +1527,17 @@ background-color: rgb(0, 0, 0);</string>
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Something</string>
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>1000</width>
+        <height>2000</height>
+       </size>
       </property>
      </widget>
      <widget class="QLabel" name="label_3">
@@ -1161,7 +1545,7 @@ background-color: rgb(0, 0, 0);</string>
        <rect>
         <x>70</x>
         <y>150</y>
-        <width>191</width>
+        <width>211</width>
         <height>31</height>
        </rect>
       </property>
@@ -1177,19 +1561,19 @@ background-color: rgb(0, 0, 0);</string>
     font-size: 14px;                  /* Text size */
     text-align: left;                 /* Left-aligned */
     text-shadow: 1px 1px 5px #000000; /* Subtle shadow for visibility */
-</string>
+    background-color: rgba(255, 255, 255, 0.00001); /* Semi-transparent background */</string>
       </property>
       <property name="text">
-       <string>Description of the movie</string>
+       <string>Lorem ipsum odor amet, consectetuer adipiscing elit. Rhoncus eu eros rutrum ligula vel integer nam ornare curabitur. Gravida ante fermentum ad, senectus fusce egestas morbi. Tortor rutrum commodo lobortis nisl nisi volutpat cubilia. Ante taciti mauris vivamus platea dolor. Metus malesuada per torquent phasellus odio justo urna. Dui non urna volutpat venenatis magnis posuere aliquam ac. Nec duis suspendisse eu finibus; iaculis commodo pulvinar mattis. Pellentesque ad condimentum ipsum posuere facilisi. Mus nullam sed pharetra fringilla elit non.</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
         <x>-20</x>
-        <y>20</y>
-        <width>991</width>
-        <height>351</height>
+        <y>10</y>
+        <width>1011</width>
+        <height>381</height>
        </rect>
       </property>
       <property name="font">
@@ -1200,6 +1584,15 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../img/Screenshot 2024-12-26 202549.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
       </property>
      </widget>
      <zorder>label_4</zorder>
@@ -1273,8 +1666,8 @@ background-color: rgb(0, 0, 0);</string>
     </property>
     <property name="iconSize">
      <size>
-      <width>75</width>
-      <height>75</height>
+      <width>49</width>
+      <height>30</height>
      </size>
     </property>
    </widget>
@@ -1292,7 +1685,7 @@ background-color: rgb(0, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
