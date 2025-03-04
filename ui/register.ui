@@ -40,7 +40,7 @@
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>20</y>
+      <y>50</y>
       <width>221</width>
       <height>221</height>
      </rect>
@@ -61,9 +61,9 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>200</y>
-      <width>451</width>
+      <x>470</x>
+      <y>230</y>
+      <width>151</width>
       <height>51</height>
      </rect>
     </property>
@@ -77,21 +77,21 @@
     <property name="styleSheet">
      <string notr="true">display: block; /* To make it take up its own line */
     text-align: center; /* Center the label */
-    font-size: 40px; /* Medium font size for readability */
+    font-size: 35px; /* Medium font size for readability */
     color: #ffffff; /* White color to stand out against background */
     font-weight: normal; /* Normal weight to keep it subtle */</string>
     </property>
     <property name="text">
-     <string>Register to The Player</string>
+     <string>Register</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="name_input">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>270</y>
-      <width>601</width>
-      <height>61</height>
+      <x>270</x>
+      <y>280</y>
+      <width>551</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -104,7 +104,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 30px; /* Rounded corners */
+    border-radius: 25px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
@@ -120,10 +120,10 @@
    <widget class="QLineEdit" name="email_input">
     <property name="geometry">
      <rect>
-      <x>239</x>
+      <x>269</x>
       <y>340</y>
-      <width>601</width>
-      <height>61</height>
+      <width>551</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -136,7 +136,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 30px; /* Rounded corners */
+    border-radius: 25px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
@@ -152,10 +152,10 @@
    <widget class="QLineEdit" name="password_input">
     <property name="geometry">
      <rect>
-      <x>239</x>
-      <y>410</y>
-      <width>601</width>
-      <height>61</height>
+      <x>269</x>
+      <y>400</y>
+      <width>551</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -168,7 +168,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 30px; /* Rounded corners */
+    border-radius: 25px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
@@ -184,10 +184,10 @@
    <widget class="QPushButton" name="register_btn">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>560</y>
-      <width>601</width>
-      <height>71</height>
+      <x>290</x>
+      <y>550</y>
+      <width>501</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -200,9 +200,10 @@
     <property name="styleSheet">
      <string notr="true">  background-color: rgb(38, 41, 108); /* Light peach color */
     border: none;
-    border-radius: 35px; /* Rounded corners */
+    border-radius: 25px; /* Rounded corners */
     padding: 10px 20px; /* Padding for better appearance */
-    font-size: 25px; /* Font size to make text readable */
+    font-size: 20px;
+px; /* Font size to make text readable */
     font-weight: bold;
     color: rgb(255, 255, 255); /* White text color */
     cursor: pointer;
@@ -216,11 +217,16 @@
    <widget class="QPushButton" name="login_btn">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>630</y>
+      <x>260</x>
+      <y>600</y>
       <width>191</width>
       <height>29</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Parkinsans Medium</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">    background: none; /* Removes background */
@@ -236,10 +242,10 @@
    <widget class="QLineEdit" name="confirm_password_input">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>480</y>
-      <width>601</width>
-      <height>61</height>
+      <x>270</x>
+      <y>460</y>
+      <width>551</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -252,7 +258,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 30px; /* Rounded corners */
+    border-radius: 25px; /* Rounded corners */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
@@ -268,10 +274,10 @@
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>40</y>
-      <width>661</width>
-      <height>631</height>
+      <x>250</x>
+      <y>90</y>
+      <width>581</width>
+      <height>551</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -291,8 +297,8 @@
    <widget class="QPushButton" name="eye_btn1">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>425</y>
+      <x>750</x>
+      <y>410</y>
       <width>83</width>
       <height>29</height>
      </rect>
@@ -322,8 +328,8 @@
    <widget class="QPushButton" name="eye_btn2">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>495</y>
+      <x>750</x>
+      <y>470</y>
       <width>83</width>
       <height>29</height>
      </rect>
