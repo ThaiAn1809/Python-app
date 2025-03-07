@@ -338,10 +338,10 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>650</y>
-      <width>61</width>
-      <height>61</height>
+      <x>875</x>
+      <y>655</y>
+      <width>51</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -500,7 +500,7 @@ QSlider::add-page:horizontal {
 </string>
     </property>
     <property name="text">
-     <string>Song name</string>
+     <string>Video name</string>
     </property>
    </widget>
   </widget>
@@ -510,7 +510,7 @@ QSlider::add-page:horizontal {
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>

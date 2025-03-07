@@ -58,7 +58,7 @@ class Login(QMainWindow):
         if user:
             msg = Alert()
             self.show_main(user["id"])
-            msg.success_message('Login succesful')
+            msg.success_message('Login successful')
             
         else:
             msg = Alert()
@@ -125,7 +125,7 @@ class Register(QMainWindow):
         
         if password != confirm_password:
             msg = Alert()
-            msg.error_message('Password and confirm passord does not match')
+            msg.error_message('Password and confirm password does not match')
             self.confirm_password_input.setFocus()
             return
         
