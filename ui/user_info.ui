@@ -54,8 +54,9 @@
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>22</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -77,8 +78,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>16</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -100,8 +102,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>16</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -123,8 +126,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>16</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -146,8 +150,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>16</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -169,8 +174,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>16</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -192,8 +198,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>16</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">

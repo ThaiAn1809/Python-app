@@ -69,7 +69,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>-1</pointsize>
       <bold>false</bold>
      </font>
@@ -96,7 +96,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI</family>
+      <family>Geist Semibold</family>
       <pointsize>-1</pointsize>
       <italic>false</italic>
       <bold>false</bold>
@@ -108,7 +108,7 @@
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 20px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 20px &quot;Geist Semibold&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Normal</enum>
@@ -128,7 +128,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI</family>
+      <family>Geist Semibold</family>
       <pointsize>-1</pointsize>
       <italic>false</italic>
       <bold>false</bold>
@@ -140,7 +140,7 @@
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 20px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 20px &quot;Geist Semibold&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Normal</enum>
@@ -160,7 +160,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI</family>
+      <family>Geist Semibold</family>
       <pointsize>-1</pointsize>
       <italic>false</italic>
       <bold>false</bold>
@@ -172,7 +172,7 @@
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 20px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 20px &quot;Geist Semibold&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Password</enum>
@@ -192,7 +192,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
       <pointsize>-1</pointsize>
       <bold>true</bold>
      </font>
@@ -225,7 +225,8 @@ px; /* Font size to make text readable */
     </property>
     <property name="font">
      <font>
-      <family>Parkinsans Medium</family>
+      <family>Geist SemiBold</family>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -250,7 +251,7 @@ px; /* Font size to make text readable */
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI</family>
+      <family>Geist Semibold</family>
       <pointsize>-1</pointsize>
       <italic>false</italic>
       <bold>false</bold>
@@ -262,7 +263,7 @@ px; /* Font size to make text readable */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent-like background */
     padding: 15px; /* Padding to create space around the text */
     color: white; /* Text color */
-    font: 20px &quot;Segoe UI&quot;; /* Font family and size */</string>
+    font: 20px &quot;Geist Semibold&quot;; /* Font family and size */</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Password</enum>
