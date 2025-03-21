@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Avenger: Endgame",
+    "director": "Anthony Russo, Joe Russo",
+    "release_date": "2019-04-26",
+    "genre": "Action, Adventure, Drama",
+    "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "banner": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
+    "video_path": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+    "rating": 8.4,
+    "duration": "181 minutes",
+    "age_rating": "13+",
+    "main_actor": "Robert Downey Jr., Chris Evans, Mark Ruffalo"
+  },
+  {
+    "title": "Jurassic World Rebirth",
+    "director": "Gareth Edwards",
+    "release_date": "2025-07-02",
+    "genre": "Adventure, Triller, Sci-Fi",
+    "description": "",
+    "banner": "https://www.bing.com/images/search?view=detailV2&ccid=mLBRl2B3&id=ED4385CDE533560D13A75E067BC6B37A65F03ED0&thid=OIP.mLBRl2B3sRkWDYYDHJiWHwHaK9&mediaurl=https%3a%2f%2fm.media-amazon.com%2fimages%2fM%2fMV5BNjMwMDQwYmMtZDM5MS00OGVjLTgyZTctNmNiMDEyNjZhYTdiXkEyXkFqcGdeQXVyNzAyOTQ3OQ%40%40._V1_FMjpg_UX1000_.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.98b051976077b119160d86031c98961f%3frik%3d0D7wZXqzxnsGXg%26pid%3dImgRaw%26r%3d0&exph=1481&expw=1000&q=banner+of+%22Jurassic+World+Rebirth%22&simid=608031387200933293&FORM=IRPRST&ck=3D950E1DE0CBFB5513C1D9312F144C23&selectedIndex=0&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0",
+    "video_path": "https://www.youtube.com/watch?v=jan5CFWs9ic",
+    "rating": "PG-13",
+    "duration": "2 minutes 25 seconds",
+    "age_rating": "PG-13",
+    "main_actor": "Scarlett Johansson, Jonathan Bailey, Repert Friend, Mehershala Ali, Ed Skrein, Manuel Garciarulfo, Luna Blaise, David Iacono, Bechir Sylvain, Audrina Miranda, Philippine Velge"
+  },
+  {
+    "title": "A Minecraft Movie",
+    "director": "Jared Hess",
+    "release_date": "Not yet",
+    "genre": "Action, Adventure, Comedy, Family, Fantasy",
+    "description": "Welcome to the world of Minecraft, where creativity doesn’t just help you craft, it’s essential to one’s survival! Four misfits—Garrett "The Garbage Man" Garrison (Momoa), Henry (Hansen), Natalie (Myers) and Dawn (Brooks)—find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they’ll have to master this world (and protect it from evil things like Piglins and Zombies, too) while embarking on a magical quest with an unexpected, expert crafter, Steve (Black). Together, their adventure will challenge all five to be bold and to reconnect with the qualities that make each of them uniquely creative…the very skills they need to thrive back in the real world. 
+Oscar nominee Hess ("Ninety-Five Senses", "Nacho Libre") directed from a screenplay by Chris Bowman & Hubbel Palmer and Neil Widener & Gavin James and Chris Galletta, story by Allison Schroeder and Chris Bowman & Hubbel Palmer, based on the Minecraft video game. Roy Lee, Jon Berg, Mary Parent, Cale Boyter, Jason Momoa, Jill Messick, Torfi Frans Ólafsson and Vu Bui produced, and Todd Hallowell, Jay Ashenfelter, Kayleen Walters, Brian Mendoza and Jon Spaihts executive produced. 
+The director’s creative team behind the camera includes BAFTA-nominated director of photography Enrique Chediak ("127 Hours", "Transformers: Rise of the Beasts"), Oscar-winning production designer Grant Major ("The Lord of the Rings: The Return of the King", "The Meg"), editor James Thomas ("Pokémon: Detective Pikachu", the "Borat" films), Oscar-winning VFX supervisor Dan Lemmon ("The Jungle Book", "The Batman"), and costume designer Amanda Neale ("The Meg", "What We Do in the Shadows"). Casting is by Rachel Tenner. The music supervisors are Gabe Hilfer and Karyn Rachtman, and the music is by Mark Mothersbaugh ("Thor: Ragnarok", the "LEGO®" movies). 
+Warner Bros. Pictures and Legendary Pictures Present A Vertigo Entertainment/On The Roam/Mojang Studios Production, A Jared Hess Film, "A Minecraft Movie." The film will be distributed by Warner Bros. Pictures worldwide and by Legendary East in China, and released only in theaters and IMAX in North America on April 4, 2025, and internationally beginning 2 April 2025.",
+    "banner": "https://yc.cldmlk.com/b9y8wehdwkarhhnqtexh79mg8g/uploads/vertical_330150af-91fa-4a1b-a262-89ff4686422e.jpg",
+    "video_path": "https://www.youtube.com/watch?v=8B1EtVPBSMw",
+    "rating": "PG",
+    "duration": "2 minutes 30 seconds",
+    "age_rating": "PG",
+    "main_actor": "Jennifer Coolidge, Jason Momoa, Jemaine Clement, Jack Black, Emma Myers, Kate Mckinnon Danielle Brooks, Sebastian Hansen"
+  }
+]
