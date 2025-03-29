@@ -79,7 +79,8 @@
     color: white;                         /* White text */
     font-size: 14px;                      /* Text size */
     padding: 10px;                        /* Padding for spacing */
-	border-radius: 10px;</string>
+	border-radius: 15px;
+	border: 1px solid white;</string>
     </property>
     <property name="text">
      <string>Movies</string>
@@ -107,7 +108,8 @@
     color: white;                         /* White text */
     font-size: 14px;                      /* Text size */
     padding: 10px;                        /* Padding for spacing */
-	border-radius: 10px;</string>
+	border-radius: 15px;
+	border: 1px solid white;</string>
     </property>
     <property name="text">
      <string>My List</string>
@@ -256,227 +258,6 @@ background-color: rgb(0, 0, 0);</string>
        <string>Name</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-    border-top-left-radius: 15px;    /* Top-left corner rounded */
-    border-top-right-radius: 0px;    /* Top-right corner not rounded */
-    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
-    border-bottom-left-radius: 15px; 
-	
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_6">
-      <property name="geometry">
-       <rect>
-        <x>140</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_15">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_17">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_18">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_19">
-      <property name="geometry">
-       <rect>
-        <x>700</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_20">
-      <property name="geometry">
-       <rect>
-        <x>840</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_21">
-      <property name="geometry">
-       <rect>
-        <x>980</x>
-        <y>140</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string>Movie</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
@@ -495,227 +276,6 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
        <string>Name</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_22">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-    border-top-left-radius: 15px;    /* Top-left corner rounded */
-    border-top-right-radius: 0px;    /* Top-right corner not rounded */
-    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
-    border-bottom-left-radius: 15px; 
-	
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_23">
-      <property name="geometry">
-       <rect>
-        <x>140</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_24">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_25">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_26">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_27">
-      <property name="geometry">
-       <rect>
-        <x>700</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_28">
-      <property name="geometry">
-       <rect>
-        <x>840</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_29">
-      <property name="geometry">
-       <rect>
-        <x>980</x>
-        <y>300</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string>Movie</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
       </property>
      </widget>
      <widget class="QLabel" name="label_8">
@@ -738,227 +298,6 @@ background-color: rgb(0, 0, 0);</string>
        <string>Name</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_30">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-    border-top-left-radius: 15px;    /* Top-left corner rounded */
-    border-top-right-radius: 0px;    /* Top-right corner not rounded */
-    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
-    border-bottom-left-radius: 15px; 
-	
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_31">
-      <property name="geometry">
-       <rect>
-        <x>140</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_32">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_33">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_34">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_35">
-      <property name="geometry">
-       <rect>
-        <x>700</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_36">
-      <property name="geometry">
-       <rect>
-        <x>840</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_37">
-      <property name="geometry">
-       <rect>
-        <x>980</x>
-        <y>460</y>
-        <width>131</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string>Movie</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>200</width>
-        <height>100</height>
-       </size>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_9">
       <property name="geometry">
        <rect>
@@ -979,21 +318,22 @@ background-color: rgb(0, 0, 0);</string>
        <string>Name</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_40">
+     <widget class="QPushButton" name="pushButton_18">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>620</y>
+        <x>1120</x>
+        <y>140</y>
         <width>131</width>
         <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
@@ -1001,26 +341,27 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>131</width>
+        <height>91</height>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_39">
+     <widget class="QPushButton" name="pushButton_2">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>620</y>
+        <x>10</x>
+        <y>150</y>
         <width>131</width>
         <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
@@ -1028,31 +369,27 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>131</width>
+        <height>91</height>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_38">
+     <widget class="QPushButton" name="pushButton_10">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>620</y>
+        <x>710</x>
+        <y>150</y>
         <width>131</width>
         <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-    border-top-left-radius: 15px;    /* Top-left corner rounded */
-    border-top-right-radius: 0px;    /* Top-right corner not rounded */
-    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
-    border-bottom-left-radius: 15px; 
-	
+    border-radius: 10px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
@@ -1060,26 +397,27 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>131</width>
+        <height>91</height>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_41">
+     <widget class="QPushButton" name="pushButton_19">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>620</y>
+        <x>850</x>
+        <y>150</y>
         <width>131</width>
         <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
@@ -1087,26 +425,27 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>131</width>
+        <height>91</height>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_42">
+     <widget class="QPushButton" name="pushButton_5">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>620</y>
+        <x>290</x>
+        <y>150</y>
         <width>131</width>
         <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
@@ -1114,26 +453,27 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>131</width>
+        <height>91</height>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_43">
+     <widget class="QPushButton" name="pushButton_6">
       <property name="geometry">
        <rect>
-        <x>700</x>
-        <y>620</y>
+        <x>570</x>
+        <y>150</y>
         <width>131</width>
         <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
@@ -1141,53 +481,167 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>150</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>150</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
        </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_44">
       <property name="geometry">
        <rect>
-        <x>840</x>
-        <y>620</y>
-        <width>131</width>
-        <height>91</height>
+        <x>960</x>
+        <y>180</y>
+        <width>31</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+        <normaloff>../img/iconizer-angle-right-solid.svg</normaloff>../img/iconizer-angle-right-solid.svg</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_48">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>660</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-right-solid.svg</normaloff>../img/iconizer-angle-right-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
        </size>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_45">
       <property name="geometry">
        <rect>
-        <x>980</x>
-        <y>620</y>
+        <x>0</x>
+        <y>180</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-left-solid.svg</normaloff>../img/iconizer-angle-left-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>310</y>
         <width>131</width>
         <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
-       <string>Movie</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
@@ -1195,8 +649,736 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>200</width>
-        <height>100</height>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_20">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>310</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_21">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>310</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_22">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>310</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_23">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_24">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>310</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_49">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>340</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-right-solid.svg</normaloff>../img/iconizer-angle-right-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>310</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_26">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>470</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_27">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>470</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_28">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>470</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_29">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>470</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_30">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>470</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_31">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>470</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_51">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>500</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-left-solid.svg</normaloff>../img/iconizer-angle-left-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_32">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_33">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>630</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_52">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>660</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-right-solid.svg</normaloff>../img/iconizer-angle-right-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_34">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>630</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_35">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>630</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_36">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>630</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_37">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>630</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_38">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>630</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_53">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>660</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-left-solid.svg</normaloff>../img/iconizer-angle-left-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_39">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>630</y>
+        <width>131</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>131</width>
+        <height>91</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_50">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>500</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-right-solid.svg</normaloff>../img/iconizer-angle-right-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_54">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>340</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-left-solid.svg</normaloff>../img/iconizer-angle-left-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
        </size>
       </property>
      </widget>
@@ -1255,8 +1437,8 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="font">
        <font>
-        <family>Geist SemiBold</family>
-        <pointsize>16</pointsize>
+        <family>Geist</family>
+        <pointsize>26</pointsize>
         <bold>true</bold>
        </font>
       </property>
@@ -1373,7 +1555,7 @@ color: rgb(0, 0, 0);</string>
      <widget class="QPushButton" name="pushButton_9">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>50</x>
         <y>420</y>
         <width>171</width>
         <height>221</height>
@@ -1386,43 +1568,7 @@ color: rgb(0, 0, 0);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-    border-top-left-radius: 15px;    /* Top-left corner rounded */
-    border-top-right-radius: 0px;    /* Top-right corner not rounded */
-    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */
-    border-bottom-left-radius: 15px; 
-	
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>1000</width>
-        <height>2000</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_10">
-      <property name="geometry">
-       <rect>
-        <x>190</x>
-        <y>420</y>
-        <width>171</width>
-        <height>221</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
@@ -1442,7 +1588,7 @@ background-color: rgb(0, 0, 0);</string>
      <widget class="QPushButton" name="pushButton_11">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>410</x>
         <y>420</y>
         <width>171</width>
         <height>221</height>
@@ -1455,6 +1601,7 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
@@ -1474,7 +1621,7 @@ background-color: rgb(0, 0, 0);</string>
      <widget class="QPushButton" name="pushButton_12">
       <property name="geometry">
        <rect>
-        <x>550</x>
+        <x>590</x>
         <y>420</y>
         <width>171</width>
         <height>221</height>
@@ -1487,6 +1634,7 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
@@ -1506,9 +1654,9 @@ background-color: rgb(0, 0, 0);</string>
      <widget class="QPushButton" name="pushButton_13">
       <property name="geometry">
        <rect>
-        <x>730</x>
+        <x>770</x>
         <y>420</y>
-        <width>171</width>
+        <width>160</width>
         <height>221</height>
        </rect>
       </property>
@@ -1519,38 +1667,7 @@ background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
-background-color: rgb(0, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>1000</width>
-        <height>2000</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_14">
-      <property name="geometry">
-       <rect>
-        <x>910</x>
-        <y>420</y>
-        <width>171</width>
-        <height>221</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Parkinsans Medium</family>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
 background-color: rgb(0, 0, 0);</string>
       </property>
       <property name="text">
@@ -1623,18 +1740,108 @@ background-color: rgb(0, 0, 0);</string>
        <bool>false</bool>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>420</y>
+        <width>171</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Parkinsans Medium</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/Screenshot 2024-12-26 202549.png</normaloff>../img/Screenshot 2024-12-26 202549.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>1000</width>
+        <height>2000</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_55">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>520</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-right-solid.svg</normaloff>../img/iconizer-angle-right-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_56">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>520</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 15px;
+background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../img/iconizer-angle-left-solid.svg</normaloff>../img/iconizer-angle-left-solid.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>15</width>
+        <height>15</height>
+       </size>
+      </property>
+     </widget>
      <zorder>label_4</zorder>
      <zorder>label_2</zorder>
      <zorder>pushButton_8</zorder>
      <zorder>pushButton_4</zorder>
      <zorder>label</zorder>
      <zorder>pushButton_9</zorder>
-     <zorder>pushButton_10</zorder>
      <zorder>pushButton_11</zorder>
      <zorder>pushButton_12</zorder>
      <zorder>pushButton_13</zorder>
-     <zorder>pushButton_14</zorder>
      <zorder>label_3</zorder>
+     <zorder>pushButton_16</zorder>
+     <zorder>pushButton_55</zorder>
+     <zorder>pushButton_56</zorder>
     </widget>
    </widget>
    <widget class="QPushButton" name="nav_home_btn">
@@ -1659,7 +1866,8 @@ background-color: rgb(0, 0, 0);</string>
     color: white;                         /* White text */
     font-size: 14px;                      /* Text size */
     padding: 10px;                        /* Padding for spacing */
-	border-radius: 10px;</string>
+	border-radius: 15px;
+	border: 1px solid white;</string>
     </property>
     <property name="text">
      <string>Home</string>
@@ -1689,14 +1897,10 @@ background-color: rgb(0, 0, 0);</string>
     <property name="text">
      <string/>
     </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../../../Pictures/Screenshots/doge.webp</normaloff>../../../../Pictures/Screenshots/doge.webp</iconset>
-    </property>
     <property name="iconSize">
      <size>
-      <width>49</width>
-      <height>30</height>
+      <width>31</width>
+      <height>31</height>
      </size>
     </property>
    </widget>
@@ -1714,7 +1918,7 @@ background-color: rgb(0, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
