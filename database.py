@@ -31,6 +31,19 @@ def find_user_by_email_and_password(email, password):
     conn.close()
     return user
 
-# create_user('buithaian321@gmail.com','Bui Thai An', 'An18092013@')
-# print(find_user_by_email('buithaian321@gmail.com'))
-# print(find_user_by_email_and_password('buithaian321@gmail.com','An18092013@'))
+def find_user_by_id(user_id):
+    conn = sqlite3.connect('./data/database.db')
+    cursor = conn.cursor()
+    cursor.row_factory = dict_factory
+    cursor.execute('SELECT id, email, name, password, avatar FROM user WHERE id = ?', (user_id,))
+    user = cursor.fetchone()
+    conn.close()
+    return user
+
+def update_user_avatar(user_id, avatar):
+    conn = sqlite3.connect('./data/database.db')
+    cursor = conn.cursor()
+    cursor.row_factory = dict_factory
+    cursor.execute('UPDATE user SET avatar = ? WHERE id = ?', (avatar,user_id))
+    conn.commit()
+    conn.close()
