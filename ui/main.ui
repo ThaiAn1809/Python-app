@@ -146,10 +146,10 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>20</y>
-      <width>31</width>
-      <height>31</height>
+      <x>950</x>
+      <y>10</y>
+      <width>61</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="autoFillBackground">
@@ -184,6 +184,12 @@ QPushButton:pressed {
      <iconset>
       <normaloff>../img/iconizer-magnifying-glass-solid.svg</normaloff>../img/iconizer-magnifying-glass-solid.svg</iconset>
     </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
    </widget>
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
@@ -195,7 +201,7 @@ QPushButton:pressed {
      </rect>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="Movies">
      <widget class="QPushButton" name="pushButton_9">
@@ -1951,7 +1957,7 @@ color: rgb(255, 255, 255);</string>
      <widget class="QLabel" name="label_13">
       <property name="geometry">
        <rect>
-        <x>450</x>
+        <x>455</x>
         <y>250</y>
         <width>131</width>
         <height>41</height>
@@ -2023,11 +2029,35 @@ color: rgb(255, 255, 255);</string>
      <widget class="QPushButton" name="btn_avatar">
       <property name="geometry">
        <rect>
-        <x>460</x>
+        <x>465</x>
         <y>140</y>
-        <width>120</width>
+        <width>111</width>
         <height>110</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: black;       /* Black background */
+    border: 2px solid solid; /* Transparent border by default */
+	border-color: rgb(255, 255, 255);
+    border-radius: 10px;            /* Rounded corners */
+    padding: 10px;                 /* Default padding */
+    background-repeat: no-repeat; /* No repeating the image */
+    background-position: center;  /* Center the icon */
+    transition: all 0.2s ease;    /* Smooth transition */
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover {
+    border: 2px solid white;       /* White border on hover */
+    padding: 8px;                  /* Reduced padding to simulate size increase */
+}
+
+QPushButton:pressed {
+    background-color: #333333;     /* Darker background on press */
+    padding: 6px;                  /* Further reduced padding for pressed state */
+}
+</string>
       </property>
       <property name="text">
        <string/>
@@ -2151,44 +2181,12 @@ QPushButton:pressed {
      <string>Home</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_46">
-    <property name="geometry">
-     <rect>
-      <x>950</x>
-      <y>20</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-    background-color: transparent;       /* Transparent background */
-    border: 2px solid white;             /* Thin white border */
-    border-radius: 15px;                 /* Circular shape (width = height) */
-    padding: 10px;                       /* Space for the icon */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>31</width>
-      <height>31</height>
-     </size>
-    </property>
-   </widget>
    <zorder>stackedWidget</zorder>
    <zorder>pushButton</zorder>
    <zorder>nav_movie_btn</zorder>
    <zorder>btn_mylist_btn</zorder>
    <zorder>pushButton_7</zorder>
    <zorder>nav_home_btn</zorder>
-   <zorder>pushButton_46</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

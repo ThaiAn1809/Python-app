@@ -1,5 +1,5 @@
-from PyQt6.QtWidgets import *
-from PyQt6.QtGui import *
+from PyQt6.QtWidgets import *  # Import specific widgets you need
+from PyQt6.QtGui import *  # Import specific GUI elements you need
 from PyQt6 import uic
 import sys
 import database
@@ -187,5 +187,4 @@ if __name__ == '__main__':
     
     login = Main(1)
     login.show()
-    sys.exit(app.exec())
-    
+    sys.exit(app.exec())    
