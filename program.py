@@ -7,6 +7,18 @@ from PyQt6.QtCore import *
 from PyQt6.QtGui import *
 from PyQt6.QtMultimedia import *
 from PyQt6.QtMultimediaWidgets import *
+import os
+
+def normalize_path(path):
+    # Convert path separators to system-specific format
+    normalized = os.path.normpath(path)
+    # Check if path exists, if not try to find it relative to current directory
+    if not os.path.exists(normalized):
+        # Try relative to current directory
+        relative_path = os.path.join(os.getcwd(), normalized)
+        if os.path.exists(relative_path):
+            return relative_path
+    return normalized
 
 class Alert(QMessageBox):
     def error_message(self, message):
@@ -440,7 +452,9 @@ class Main(QMainWindow):
             return
         try:
             movie = database.get_video_by_id(self.movie_id)
-            self.mediaPlayer.setSource(QUrl.fromLocalFile(movie["video_path"]))
+            # Normalize video path
+            video_path = normalize_path(movie["video_path"])
+            self.mediaPlayer.setSource(QUrl.fromLocalFile(video_path))
             self.mediaPlayer.play()
             self.lbl_title.setText(movie["title"])
             self.durationBar.sliderMoved.connect(self.setPosition)
@@ -452,6 +466,8 @@ class Main(QMainWindow):
             self.stackedWidget.setCurrentIndex(3)
         except Exception as e:
             print(f"Error loading video: {e}")
+            msg = Alert()
+            msg.error_message(f"Could not load video: {str(e)}")
         
     def mediaStateChanged(self):
         if self.mediaPlayer.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
@@ -598,7 +614,8 @@ class MovieItemWidget(QWidget):
         # Set data
         self.titleLabel.setText(title)
         
-        # Set banner
+        # Set banner with normalized path
+        banner_path = normalize_path(banner_path)
         pixmap = QPixmap(banner_path)
         self.bannerLabel.setPixmap(pixmap)
         
