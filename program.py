@@ -176,6 +176,8 @@ class Main(QMainWindow):
         self.video_container = self.findChild(QWidget, 'video_container')
         self.favorite_container = self.findChild(QWidget, 'favorite_container')
         self.btn_play_video = self.findChild(QPushButton, 'btn_play_video')
+        self.btn_logout_btn = self.findChild(QPushButton, "btn_logout_btn")
+
         
         # Setup UI and load initial data
         self.setupUI()
@@ -188,7 +190,12 @@ class Main(QMainWindow):
         self.btn_mylist_btn.clicked.connect(self.showFavorites)
         self.btn_avatar.clicked.connect(self.update_avatar)
         self.btn_play_video.clicked.connect(self.loadVideo)
-        
+        self.btn_logout_btn.clicked.connect(self.logout)
+    
+    def logout(self):
+        login = Login()
+        login.show()
+        self.close()
     
     def load_user_info(self):
         self.btn_avatar = self.findChild(QPushButton,'btn_avatar')
@@ -653,9 +660,6 @@ class MovieItemWidget(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    # login = Login()
-    # login.show()
-    
-    login = Main(1)
+    login = Login()
     login.show()
     sys.exit(app.exec())    
