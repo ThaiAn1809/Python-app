@@ -1321,7 +1321,7 @@ QPushButton:pressed {
 </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_mylist_btn_2">
+   <widget class="QPushButton" name="btn_logout_btn">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -1371,7 +1371,7 @@ QPushButton:pressed {
    <zorder>btn_search</zorder>
    <zorder>nav_home_btn</zorder>
    <zorder>txt_search</zorder>
-   <zorder>btn_mylist_btn_2</zorder>
+   <zorder>btn_logout_btn</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
