@@ -60,9 +60,9 @@
    <widget class="QPushButton" name="nav_movie_btn">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>290</x>
       <y>20</y>
-      <width>111</width>
+      <width>81</width>
       <height>41</height>
      </rect>
     </property>
@@ -103,9 +103,9 @@ QPushButton:pressed {
    <widget class="QPushButton" name="btn_mylist_btn">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>380</x>
       <y>20</y>
-      <width>111</width>
+      <width>81</width>
       <height>41</height>
      </rect>
     </property>
@@ -283,86 +283,6 @@ QPushButton:pressed {
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QPushButton" name="btn_back">
-         <property name="minimumSize">
-          <size>
-           <width>40</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>40</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QPushButton {
-    background-color: rgba(42, 42, 42, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 20px;
-    padding: 8px;
-}
-QPushButton:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="icon">
-          <iconset>
-           <normaloff>../img/arrow-left-solid.svg</normaloff>../img/arrow-left-solid.svg</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>24</width>
-           <height>24</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btn_favorite">
-         <property name="minimumSize">
-          <size>
-           <width>40</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>40</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QPushButton {
-    background-color: rgba(42, 42, 42, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 20px;
-    padding: 8px;
-}
-QPushButton:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="icon">
-          <iconset>
-           <normaloff>../img/heart-regular.svg</normaloff>../img/heart-regular.svg</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>24</width>
-           <height>24</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer name="horizontalSpacer">
          <property name="orientation">
           <enum>Qt::Orientation::Horizontal</enum>
@@ -381,7 +301,7 @@ QPushButton:hover {
       <property name="geometry">
        <rect>
         <x>60</x>
-        <y>20</y>
+        <y>80</y>
         <width>300</width>
         <height>400</height>
        </rect>
@@ -579,7 +499,7 @@ background-color: rgb(0, 0, 0);</string>
       <property name="geometry">
        <rect>
         <x>60</x>
-        <y>440</y>
+        <y>500</y>
         <width>300</width>
         <height>41</height>
        </rect>
@@ -1036,12 +956,23 @@ QPushButton:hover {
         <x>229</x>
         <y>129</y>
         <width>601</width>
-        <height>381</height>
+        <height>411</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius: 30px;
-background-color: rgb(56, 56, 56);</string>
+       <string notr="true">
+    background-color: black;       /* Black background */
+    border: 2px solid solid; /* Transparent border by default */
+	border-color: rgb(255, 255, 255);
+    border-radius: 10px;            /* Rounded corners */
+    padding: 10px;                 /* Default padding */
+    background-repeat: no-repeat; /* No repeating the image */
+    background-position: center;  /* Center the icon */
+    transition: all 0.2s ease;    /* Smooth transition */
+	color: rgb(255, 255, 255);
+
+
+</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::Shape::StyledPanel</enum>
@@ -1049,61 +980,13 @@ background-color: rgb(56, 56, 56);</string>
       <property name="frameShadow">
        <enum>QFrame::Shadow::Raised</enum>
       </property>
-      <widget class="QLabel" name="label_15">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>220</y>
-         <width>121</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Geist SemiBold</family>
-         <pointsize>16</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: transparent;
-color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>Birthday:</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_12">
-       <property name="geometry">
-        <rect>
-         <x>60</x>
-         <y>270</y>
-         <width>121</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Geist SemiBold</family>
-         <pointsize>16</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: transparent;
-color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>Gender:</string>
-       </property>
-      </widget>
       <widget class="QLineEdit" name="txt_name">
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>130</y>
+         <y>140</y>
          <width>351</width>
-         <height>31</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1119,9 +1002,9 @@ color: black;</string>
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>180</y>
+         <y>190</y>
          <width>351</width>
-         <height>31</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1134,9 +1017,9 @@ color: black;</string>
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>230</y>
+         <y>240</y>
          <width>351</width>
-         <height>31</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1149,9 +1032,9 @@ color: black;</string>
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>270</y>
-         <width>121</width>
-         <height>31</height>
+         <y>290</y>
+         <width>351</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1179,15 +1062,34 @@ color: black;</string>
        <property name="geometry">
         <rect>
          <x>240</x>
-         <y>330</y>
+         <y>350</y>
          <width>100</width>
-         <height>32</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 15px;
-color: black;</string>
+        <string notr="true">QPushButton {
+    background-color: black;       /* Black background */
+    border: 2px solid solid; /* Transparent border by default */
+	border-color: rgb(255, 255, 255);
+    border-radius: 10px;            /* Rounded corners */
+    padding: 10px;                 /* Default padding */
+    background-repeat: no-repeat; /* No repeating the image */
+    background-position: center;  /* Center the icon */
+    transition: all 0.2s ease;    /* Smooth transition */
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover {
+    border: 2px solid white;       /* White border on hover */
+    padding: 8px;                  /* Reduced padding to simulate size increase */
+}
+
+QPushButton:pressed {
+    background-color: #333333;     /* Darker background on press */
+    padding: 6px;                  /* Further reduced padding for pressed state */
+}
+</string>
        </property>
        <property name="text">
         <string>Save</string>
@@ -1197,7 +1099,7 @@ color: black;</string>
      <widget class="QLabel" name="label_13">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>450</x>
         <y>80</y>
         <width>131</width>
         <height>41</height>
@@ -1222,7 +1124,7 @@ color: rgb(255, 255, 255);</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>305</y>
+        <y>315</y>
         <width>121</width>
         <height>41</height>
        </rect>
@@ -1283,7 +1185,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>255</y>
+        <y>265</y>
         <width>121</width>
         <height>41</height>
        </rect>
@@ -1303,14 +1205,62 @@ color: rgb(255, 255, 255);</string>
        <string>Username:</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>415</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Geist SemiBold</family>
+        <pointsize>16</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Gender:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>365</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Geist SemiBold</family>
+        <pointsize>16</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Birthday:</string>
+      </property>
+     </widget>
     </widget>
    </widget>
    <widget class="QPushButton" name="nav_home_btn">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>200</x>
       <y>20</y>
-      <width>111</width>
+      <width>81</width>
       <height>41</height>
      </rect>
     </property>
@@ -1351,16 +1301,67 @@ QPushButton:pressed {
    <widget class="QLineEdit" name="txt_search">
     <property name="geometry">
      <rect>
-      <x>610</x>
+      <x>630</x>
       <y>20</y>
-      <width>331</width>
+      <width>311</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 15px;
-color: black;</string>
+     <string notr="true">
+    background-color: black;       /* Black background */
+    border: 2px solid solid; /* Transparent border by default */
+	border-color: rgb(255, 255, 255);
+    border-radius: 10px;            /* Rounded corners */
+    padding: 10px;                 /* Default padding */
+    background-repeat: no-repeat; /* No repeating the image */
+    background-position: center;  /* Center the icon */
+    transition: all 0.2s ease;    /* Smooth transition */
+	color: rgb(255, 255, 255);
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_mylist_btn_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Geist SemiBold</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: black;       /* Black background */
+    border: 2px solid solid; /* Transparent border by default */
+	border-color: rgb(255, 255, 255);
+    border-radius: 10px;            /* Rounded corners */
+    padding: 10px;                 /* Default padding */
+    background-repeat: no-repeat; /* No repeating the image */
+    background-position: center;  /* Center the icon */
+    transition: all 0.2s ease;    /* Smooth transition */
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover {
+    border: 2px solid white;       /* White border on hover */
+    padding: 8px;                  /* Reduced padding to simulate size increase */
+}
+
+QPushButton:pressed {
+    background-color: #333333;     /* Darker background on press */
+    padding: 6px;                  /* Further reduced padding for pressed state */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
     </property>
    </widget>
    <zorder>stackedWidget</zorder>
@@ -1370,6 +1371,7 @@ color: black;</string>
    <zorder>btn_search</zorder>
    <zorder>nav_home_btn</zorder>
    <zorder>txt_search</zorder>
+   <zorder>btn_mylist_btn_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -1377,7 +1379,7 @@ color: black;</string>
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>24</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

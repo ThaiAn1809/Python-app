@@ -70,7 +70,7 @@ border-top-right-radius: 15px;</string>
       <bool>true</bool>
      </property>
      <property name="alignment">
-      <set>Qt::AlignCenter</set>
+      <set>Qt::AlignmentFlag::AlignCenter</set>
      </property>
     </widget>
    </item>
@@ -87,7 +87,7 @@ padding: 0 10px;</string>
       <string/>
      </property>
      <property name="alignment">
-      <set>Qt::AlignCenter</set>
+      <set>Qt::AlignmentFlag::AlignCenter</set>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -136,14 +136,14 @@ QPushButton:hover {
        <property name="icon">
         <iconset>
          <normaloff>../img/play-solid.svg</normaloff>../img/play-solid.svg</iconset>
-        </property>
-        <property name="iconSize">
-         <size>
-          <width>24</width>
-          <height>24</height>
-         </size>
-        </property>
-       </widget>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QPushButton" name="infoButton">
@@ -175,15 +175,15 @@ QPushButton:hover {
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../img/circle-info-solid.svg</normaloff>../img/circle-info-solid.svg</iconset>
-        </property>
-        <property name="iconSize">
-         <size>
-          <width>24</width>
-          <height>24</height>
-         </size>
-        </property>
-       </widget>
+         <normaloff>../img/info-badge.svg</normaloff>../img/info-badge.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QPushButton" name="addButton">
@@ -215,15 +215,15 @@ QPushButton:hover {
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../img/plus-solid.svg</normaloff>../img/plus-solid.svg</iconset>
-        </property>
-        <property name="iconSize">
-         <size>
-          <width>24</width>
-          <height>24</height>
-         </size>
-        </property>
-       </widget>
+         <normaloff>../img/iconizer-plus-solid.svg</normaloff>../img/iconizer-plus-solid.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QPushButton" name="btn_favorite">
@@ -258,14 +258,14 @@ QPushButton:hover {
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../img/heart-regular.svg</normaloff>../img/heart-regular.svg</iconset>
-        </property>
-        <property name="iconSize">
-         <size>
-          <width>24</width>
-          <height>24</height>
-         </size>
-        </property>
+         <normaloff>../img/iconizer-heart-solid.svg</normaloff>../img/iconizer-heart-solid.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
       </widget>
      </item>
     </layout>
