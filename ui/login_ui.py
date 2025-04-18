@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/login.ui'
+# Form implementation generated from reading ui file '/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/login.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.0
 #
@@ -101,14 +101,14 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QtCore.QRect(-20, 0, 1121, 768))
         self.label.setStyleSheet("")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/login_bg.png"))
+        self.label.setPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/login_bg.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(430, 50, 221, 221))
         self.label_2.setStyleSheet("")
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/LOGO.png"))
+        self.label_2.setPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/LOGO.png"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.label_5 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -156,7 +156,7 @@ class Ui_MainWindow(object):
 "    font: 20px \"Segoe UI\"; /* Font family and size */")
         self.eye_btn.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/eye-slash-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/eye-slash-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.eye_btn.setIcon(icon)
         self.eye_btn.setIconSize(QtCore.QSize(30, 30))
         self.eye_btn.setObjectName("eye_btn")
@@ -173,7 +173,7 @@ class Ui_MainWindow(object):
         self.eye_btn.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1024, 25))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1024, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)

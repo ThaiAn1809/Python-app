@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/main.ui'
+# Form implementation generated from reading ui file '/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/main.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.0
 #
@@ -31,7 +31,7 @@ class Ui_MainWindow(object):
 "")
         self.pushButton.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/LOGO.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/LOGO.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton.setIcon(icon)
         self.pushButton.setIconSize(QtCore.QSize(150, 150))
         self.pushButton.setObjectName("pushButton")
@@ -39,376 +39,310 @@ class Ui_MainWindow(object):
         self.nav_movie_btn.setGeometry(QtCore.QRect(220, 20, 111, 41))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
-        font.setPointSize(-1)
         font.setBold(True)
         self.nav_movie_btn.setFont(font)
-        self.nav_movie_btn.setStyleSheet("\n"
-"    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */\n"
-"    color: white;                         /* White text */\n"
-"    font-size: 14px;                      /* Text size */\n"
-"    padding: 10px;                        /* Padding for spacing */\n"
-"    border-radius: 10px;")
+        self.nav_movie_btn.setStyleSheet("QPushButton {\n"
+"    background-color: black;       /* Black background */\n"
+"    border: 2px solid solid; /* Transparent border by default */\n"
+"    border-color: rgb(255, 255, 255);\n"
+"    border-radius: 10px;            /* Rounded corners */\n"
+"    padding: 10px;                 /* Default padding */\n"
+"    background-repeat: no-repeat; /* No repeating the image */\n"
+"    background-position: center;  /* Center the icon */\n"
+"    transition: all 0.2s ease;    /* Smooth transition */\n"
+"    color: rgb(255, 255, 255);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    border: 2px solid white;       /* White border on hover */\n"
+"    padding: 8px;                  /* Reduced padding to simulate size increase */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #333333;     /* Darker background on press */\n"
+"    padding: 6px;                  /* Further reduced padding for pressed state */\n"
+"}\n"
+"")
         self.nav_movie_btn.setObjectName("nav_movie_btn")
         self.btn_mylist_btn = QtWidgets.QPushButton(parent=self.centralwidget)
         self.btn_mylist_btn.setGeometry(QtCore.QRect(340, 20, 111, 41))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
-        font.setPointSize(-1)
         font.setBold(True)
         self.btn_mylist_btn.setFont(font)
-        self.btn_mylist_btn.setStyleSheet("\n"
-"    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */\n"
-"    color: white;                         /* White text */\n"
-"    font-size: 14px;                      /* Text size */\n"
-"    padding: 10px;                        /* Padding for spacing */\n"
-"    border-radius: 10px;")
-        self.btn_mylist_btn.setObjectName("btn_mylist_btn")
-        self.pushButton_7 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButton_7.setGeometry(QtCore.QRect(910, 20, 31, 31))
-        self.pushButton_7.setAutoFillBackground(False)
-        self.pushButton_7.setStyleSheet("\n"
-"    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */\n"
-"    color: white;                         /* White text */\n"
-"    font-size: 14px;                      /* Text size */\n"
-"    padding: 10px;                        /* Padding for spacing */\n"
-"    border-radius: 10px;\n"
+        self.btn_mylist_btn.setStyleSheet("QPushButton {\n"
+"    background-color: black;       /* Black background */\n"
+"    border: 2px solid solid; /* Transparent border by default */\n"
+"    border-color: rgb(255, 255, 255);\n"
+"    border-radius: 10px;            /* Rounded corners */\n"
+"    padding: 10px;                 /* Default padding */\n"
+"    background-repeat: no-repeat; /* No repeating the image */\n"
+"    background-position: center;  /* Center the icon */\n"
+"    transition: all 0.2s ease;    /* Smooth transition */\n"
+"    color: rgb(255, 255, 255);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    border: 2px solid white;       /* White border on hover */\n"
+"    padding: 8px;                  /* Reduced padding to simulate size increase */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #333333;     /* Darker background on press */\n"
+"    padding: 6px;                  /* Further reduced padding for pressed state */\n"
+"}\n"
 "")
-        self.pushButton_7.setText("")
+        self.btn_mylist_btn.setObjectName("btn_mylist_btn")
+        self.btn_search = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.btn_search.setGeometry(QtCore.QRect(950, 10, 61, 61))
+        self.btn_search.setAutoFillBackground(False)
+        self.btn_search.setStyleSheet("QPushButton {\n"
+"    background-color: black;       /* Black background */\n"
+"    border: 2px solid transparent; /* Transparent border by default */\n"
+"    border-radius: 5px;            /* Rounded corners */\n"
+"    padding: 10px;                 /* Default padding */\n"
+"    background-repeat: no-repeat; /* No repeating the image */\n"
+"    background-position: center;  /* Center the icon */\n"
+"    transition: all 0.2s ease;    /* Smooth transition */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    border: 2px solid white;       /* White border on hover */\n"
+"    padding: 8px;                  /* Reduced padding to simulate size increase */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #333333;     /* Darker background on press */\n"
+"    padding: 6px;                  /* Further reduced padding for pressed state */\n"
+"}\n"
+"")
+        self.btn_search.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/iconizer-magnifying-glass-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_7.setIcon(icon1)
-        self.pushButton_7.setObjectName("pushButton_7")
+        icon1.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/iconizer-magnifying-glass-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.btn_search.setIcon(icon1)
+        self.btn_search.setIconSize(QtCore.QSize(30, 30))
+        self.btn_search.setObjectName("btn_search")
         self.stackedWidget = QtWidgets.QStackedWidget(parent=self.centralwidget)
         self.stackedWidget.setGeometry(QtCore.QRect(20, 80, 1001, 651))
         self.stackedWidget.setObjectName("stackedWidget")
         self.Movies = QtWidgets.QWidget()
         self.Movies.setObjectName("Movies")
-        self.label_5 = QtWidgets.QLabel(parent=self.Movies)
-        self.label_5.setGeometry(QtCore.QRect(0, 20, 91, 31))
+        self.video_container = QtWidgets.QWidget(parent=self.Movies)
+        self.video_container.setGeometry(QtCore.QRect(0, 10, 1001, 651))
+        self.video_container.setStyleSheet("/* Movie Item Styles */\n"
+".MovieItemWidget {\n"
+"    background-color: black;\n"
+"    border: 1px solid rgba(255, 255, 255, 0.8);\n"
+"    border-radius: 15px;\n"
+"}\n"
+"\n"
+".MovieItemWidget QLabel {\n"
+"    color: white;\n"
+"    font-family: Geist;\n"
+"}\n"
+"\n"
+".MovieItemWidget .title {\n"
+"    font-size: 16px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+".MovieItemWidget .description {\n"
+"    font-size: 12px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .overlay {\n"
+"    background-color: rgba(0, 0, 0, 0.7);\n"
+"    border-radius: 15px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .play-button {\n"
+"    background-color: rgb(229, 9, 20);\n"
+"    border: none;\n"
+"    border-radius: 20px;\n"
+"    padding: 8px;\n"
+"    min-width: 40px;\n"
+"    min-height: 40px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .play-button:hover {\n"
+"    background-color: rgb(193, 17, 25);\n"
+"}\n"
+"\n"
+".MovieItemWidget .control-button {\n"
+"    background-color: rgba(42, 42, 42, 0.7);\n"
+"    border: 1px solid rgba(255, 255, 255, 0.7);\n"
+"    border-radius: 20px;\n"
+"    padding: 8px;\n"
+"    min-width: 40px;\n"
+"    min-height: 40px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .control-button:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"}")
+        self.video_container.setObjectName("video_container")
+        self.stackedWidget.addWidget(self.Movies)
+        self.Detail = QtWidgets.QWidget()
+        self.Detail.setObjectName("Detail")
+        self.header = QtWidgets.QWidget(parent=self.Detail)
+        self.header.setGeometry(QtCore.QRect(0, 0, 1001, 60))
+        self.header.setStyleSheet("background-color: rgba(0, 0, 0, 0.7);")
+        self.header.setObjectName("header")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.header)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.btn_back = QtWidgets.QPushButton(parent=self.header)
+        self.btn_back.setMinimumSize(QtCore.QSize(40, 40))
+        self.btn_back.setMaximumSize(QtCore.QSize(40, 40))
+        self.btn_back.setStyleSheet("QPushButton {\n"
+"    background-color: rgba(42, 42, 42, 0.7);\n"
+"    border: 1px solid rgba(255, 255, 255, 0.7);\n"
+"    border-radius: 20px;\n"
+"    padding: 8px;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"}")
+        self.btn_back.setText("")
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/arrow-left-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.btn_back.setIcon(icon2)
+        self.btn_back.setIconSize(QtCore.QSize(24, 24))
+        self.btn_back.setObjectName("btn_back")
+        self.horizontalLayout.addWidget(self.btn_back)
+        self.btn_favorite = QtWidgets.QPushButton(parent=self.header)
+        self.btn_favorite.setMinimumSize(QtCore.QSize(40, 40))
+        self.btn_favorite.setMaximumSize(QtCore.QSize(40, 40))
+        self.btn_favorite.setStyleSheet("QPushButton {\n"
+"    background-color: rgba(42, 42, 42, 0.7);\n"
+"    border: 1px solid rgba(255, 255, 255, 0.7);\n"
+"    border-radius: 20px;\n"
+"    padding: 8px;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"}")
+        self.btn_favorite.setText("")
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/heart-regular.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.btn_favorite.setIcon(icon3)
+        self.btn_favorite.setIconSize(QtCore.QSize(24, 24))
+        self.btn_favorite.setObjectName("btn_favorite")
+        self.horizontalLayout.addWidget(self.btn_favorite)
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
+        self.horizontalLayout.addItem(spacerItem)
+        self.lbl_detail_image = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_image.setGeometry(QtCore.QRect(60, 20, 300, 400))
+        self.lbl_detail_image.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
+"border-radius: 15px;\n"
+"background-color: rgb(0, 0, 0);")
+        self.lbl_detail_image.setObjectName("lbl_detail_image")
+        self.lbl_detail_name = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_name.setGeometry(QtCore.QRect(400, 20, 581, 41))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(24)
+        font.setBold(True)
+        self.lbl_detail_name.setFont(font)
+        self.lbl_detail_name.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_name.setObjectName("lbl_detail_name")
+        self.lbl_detail_director = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_director.setGeometry(QtCore.QRect(400, 80, 581, 31))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
         font.setPointSize(14)
         font.setBold(True)
-        self.label_5.setFont(font)
-        self.label_5.setObjectName("label_5")
-        self.comboBox = QtWidgets.QComboBox(parent=self.Movies)
-        self.comboBox.setGeometry(QtCore.QRect(120, 20, 101, 31))
+        self.lbl_detail_director.setFont(font)
+        self.lbl_detail_director.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_director.setObjectName("lbl_detail_director")
+        self.lbl_detail_release_date = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_release_date.setGeometry(QtCore.QRect(400, 120, 581, 31))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(14)
+        font.setBold(True)
+        self.lbl_detail_release_date.setFont(font)
+        self.lbl_detail_release_date.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_release_date.setObjectName("lbl_detail_release_date")
+        self.lbl_detail_genre = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_genre.setGeometry(QtCore.QRect(400, 160, 581, 31))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(14)
+        font.setBold(True)
+        self.lbl_detail_genre.setFont(font)
+        self.lbl_detail_genre.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_genre.setObjectName("lbl_detail_genre")
+        self.lbl_detail_rating = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_rating.setGeometry(QtCore.QRect(400, 200, 581, 31))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(14)
+        font.setBold(True)
+        self.lbl_detail_rating.setFont(font)
+        self.lbl_detail_rating.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_rating.setObjectName("lbl_detail_rating")
+        self.lbl_detail_duration = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_duration.setGeometry(QtCore.QRect(400, 240, 581, 31))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(14)
+        font.setBold(True)
+        self.lbl_detail_duration.setFont(font)
+        self.lbl_detail_duration.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_duration.setObjectName("lbl_detail_duration")
+        self.lbl_detail_age_rating = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_age_rating.setGeometry(QtCore.QRect(400, 280, 581, 31))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(14)
+        font.setBold(True)
+        self.lbl_detail_age_rating.setFont(font)
+        self.lbl_detail_age_rating.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_age_rating.setObjectName("lbl_detail_age_rating")
+        self.lbl_detail_main_actor = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_main_actor.setGeometry(QtCore.QRect(400, 320, 581, 31))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(14)
+        font.setBold(True)
+        self.lbl_detail_main_actor.setFont(font)
+        self.lbl_detail_main_actor.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_main_actor.setObjectName("lbl_detail_main_actor")
+        self.lbl_detail_description = QtWidgets.QLabel(parent=self.Detail)
+        self.lbl_detail_description.setGeometry(QtCore.QRect(400, 360, 581, 181))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(14)
+        font.setBold(True)
+        self.lbl_detail_description.setFont(font)
+        self.lbl_detail_description.setStyleSheet("color: rgb(255, 255, 255);")
+        self.lbl_detail_description.setWordWrap(True)
+        self.lbl_detail_description.setObjectName("lbl_detail_description")
+        self.btn_play_video = QtWidgets.QPushButton(parent=self.Detail)
+        self.btn_play_video.setGeometry(QtCore.QRect(60, 440, 300, 41))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
         font.setBold(True)
-        self.comboBox.setFont(font)
-        self.comboBox.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"border-radius: 15px; \n"
-"background-color: rgb(0, 0, 0);")
-        self.comboBox.setObjectName("comboBox")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.label_6 = QtWidgets.QLabel(parent=self.Movies)
-        self.label_6.setGeometry(QtCore.QRect(0, 105, 71, 31))
-        font = QtGui.QFont()
-        font.setFamily("Geist SemiBold")
-        font.setPointSize(12)
-        font.setBold(True)
-        self.label_6.setFont(font)
-        self.label_6.setObjectName("label_6")
-        self.pushButton_2 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_2.setGeometry(QtCore.QRect(0, 140, 131, 91))
-        self.pushButton_2.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"    border-top-left-radius: 15px;    /* Top-left corner rounded */\n"
-"    border-top-right-radius: 0px;    /* Top-right corner not rounded */\n"
-"    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */\n"
-"    border-bottom-left-radius: 15px; \n"
-"    \n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_2.setText("")
-        icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/Screenshot 2024-12-26 202549.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_2.setIcon(icon2)
-        self.pushButton_2.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.pushButton_6 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_6.setGeometry(QtCore.QRect(140, 140, 131, 91))
-        self.pushButton_6.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_6.setText("")
-        self.pushButton_6.setIcon(icon2)
-        self.pushButton_6.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_6.setObjectName("pushButton_6")
-        self.pushButton_15 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_15.setGeometry(QtCore.QRect(280, 140, 131, 91))
-        self.pushButton_15.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_15.setText("")
-        self.pushButton_15.setIcon(icon2)
-        self.pushButton_15.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_15.setObjectName("pushButton_15")
-        self.pushButton_17 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_17.setGeometry(QtCore.QRect(420, 140, 131, 91))
-        self.pushButton_17.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_17.setText("")
-        self.pushButton_17.setIcon(icon2)
-        self.pushButton_17.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_17.setObjectName("pushButton_17")
-        self.pushButton_18 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_18.setGeometry(QtCore.QRect(560, 140, 131, 91))
-        self.pushButton_18.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_18.setText("")
-        self.pushButton_18.setIcon(icon2)
-        self.pushButton_18.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_18.setObjectName("pushButton_18")
-        self.pushButton_19 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_19.setGeometry(QtCore.QRect(700, 140, 131, 91))
-        self.pushButton_19.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_19.setText("")
-        self.pushButton_19.setIcon(icon2)
-        self.pushButton_19.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_19.setObjectName("pushButton_19")
-        self.pushButton_20 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_20.setGeometry(QtCore.QRect(840, 140, 131, 91))
-        self.pushButton_20.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_20.setText("")
-        self.pushButton_20.setIcon(icon2)
-        self.pushButton_20.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_20.setObjectName("pushButton_20")
-        self.pushButton_21 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_21.setGeometry(QtCore.QRect(980, 140, 131, 91))
-        self.pushButton_21.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_21.setIcon(icon2)
-        self.pushButton_21.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_21.setObjectName("pushButton_21")
-        self.label_7 = QtWidgets.QLabel(parent=self.Movies)
-        self.label_7.setGeometry(QtCore.QRect(0, 260, 71, 31))
-        font = QtGui.QFont()
-        font.setFamily("Geist SemiBold")
-        font.setPointSize(12)
-        font.setBold(True)
-        self.label_7.setFont(font)
-        self.label_7.setObjectName("label_7")
-        self.pushButton_22 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_22.setGeometry(QtCore.QRect(0, 300, 131, 91))
-        self.pushButton_22.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"    border-top-left-radius: 15px;    /* Top-left corner rounded */\n"
-"    border-top-right-radius: 0px;    /* Top-right corner not rounded */\n"
-"    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */\n"
-"    border-bottom-left-radius: 15px; \n"
-"    \n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_22.setText("")
-        self.pushButton_22.setIcon(icon2)
-        self.pushButton_22.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_22.setObjectName("pushButton_22")
-        self.pushButton_23 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_23.setGeometry(QtCore.QRect(140, 300, 131, 91))
-        self.pushButton_23.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_23.setText("")
-        self.pushButton_23.setIcon(icon2)
-        self.pushButton_23.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_23.setObjectName("pushButton_23")
-        self.pushButton_24 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_24.setGeometry(QtCore.QRect(280, 300, 131, 91))
-        self.pushButton_24.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_24.setText("")
-        self.pushButton_24.setIcon(icon2)
-        self.pushButton_24.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_24.setObjectName("pushButton_24")
-        self.pushButton_25 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_25.setGeometry(QtCore.QRect(420, 300, 131, 91))
-        self.pushButton_25.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_25.setText("")
-        self.pushButton_25.setIcon(icon2)
-        self.pushButton_25.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_25.setObjectName("pushButton_25")
-        self.pushButton_26 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_26.setGeometry(QtCore.QRect(560, 300, 131, 91))
-        self.pushButton_26.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_26.setText("")
-        self.pushButton_26.setIcon(icon2)
-        self.pushButton_26.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_26.setObjectName("pushButton_26")
-        self.pushButton_27 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_27.setGeometry(QtCore.QRect(700, 300, 131, 91))
-        self.pushButton_27.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_27.setText("")
-        self.pushButton_27.setIcon(icon2)
-        self.pushButton_27.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_27.setObjectName("pushButton_27")
-        self.pushButton_28 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_28.setGeometry(QtCore.QRect(840, 300, 131, 91))
-        self.pushButton_28.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_28.setText("")
-        self.pushButton_28.setIcon(icon2)
-        self.pushButton_28.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_28.setObjectName("pushButton_28")
-        self.pushButton_29 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_29.setGeometry(QtCore.QRect(980, 300, 131, 91))
-        self.pushButton_29.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_29.setIcon(icon2)
-        self.pushButton_29.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_29.setObjectName("pushButton_29")
-        self.label_8 = QtWidgets.QLabel(parent=self.Movies)
-        self.label_8.setGeometry(QtCore.QRect(0, 420, 71, 31))
-        font = QtGui.QFont()
-        font.setFamily("Geist SemiBold")
-        font.setPointSize(12)
-        font.setBold(True)
-        self.label_8.setFont(font)
-        self.label_8.setObjectName("label_8")
-        self.pushButton_30 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_30.setGeometry(QtCore.QRect(0, 460, 131, 91))
-        self.pushButton_30.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"    border-top-left-radius: 15px;    /* Top-left corner rounded */\n"
-"    border-top-right-radius: 0px;    /* Top-right corner not rounded */\n"
-"    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */\n"
-"    border-bottom-left-radius: 15px; \n"
-"    \n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_30.setText("")
-        self.pushButton_30.setIcon(icon2)
-        self.pushButton_30.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_30.setObjectName("pushButton_30")
-        self.pushButton_31 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_31.setGeometry(QtCore.QRect(140, 460, 131, 91))
-        self.pushButton_31.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_31.setText("")
-        self.pushButton_31.setIcon(icon2)
-        self.pushButton_31.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_31.setObjectName("pushButton_31")
-        self.pushButton_32 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_32.setGeometry(QtCore.QRect(280, 460, 131, 91))
-        self.pushButton_32.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_32.setText("")
-        self.pushButton_32.setIcon(icon2)
-        self.pushButton_32.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_32.setObjectName("pushButton_32")
-        self.pushButton_33 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_33.setGeometry(QtCore.QRect(420, 460, 131, 91))
-        self.pushButton_33.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_33.setText("")
-        self.pushButton_33.setIcon(icon2)
-        self.pushButton_33.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_33.setObjectName("pushButton_33")
-        self.pushButton_34 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_34.setGeometry(QtCore.QRect(560, 460, 131, 91))
-        self.pushButton_34.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_34.setText("")
-        self.pushButton_34.setIcon(icon2)
-        self.pushButton_34.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_34.setObjectName("pushButton_34")
-        self.pushButton_35 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_35.setGeometry(QtCore.QRect(700, 460, 131, 91))
-        self.pushButton_35.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_35.setText("")
-        self.pushButton_35.setIcon(icon2)
-        self.pushButton_35.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_35.setObjectName("pushButton_35")
-        self.pushButton_36 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_36.setGeometry(QtCore.QRect(840, 460, 131, 91))
-        self.pushButton_36.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_36.setText("")
-        self.pushButton_36.setIcon(icon2)
-        self.pushButton_36.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_36.setObjectName("pushButton_36")
-        self.pushButton_37 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_37.setGeometry(QtCore.QRect(980, 460, 131, 91))
-        self.pushButton_37.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_37.setIcon(icon2)
-        self.pushButton_37.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_37.setObjectName("pushButton_37")
-        self.label_9 = QtWidgets.QLabel(parent=self.Movies)
-        self.label_9.setGeometry(QtCore.QRect(0, 580, 71, 31))
-        font = QtGui.QFont()
-        font.setFamily("Geist SemiBold")
-        font.setPointSize(12)
-        font.setBold(True)
-        self.label_9.setFont(font)
-        self.label_9.setObjectName("label_9")
-        self.pushButton_40 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_40.setGeometry(QtCore.QRect(280, 620, 131, 91))
-        self.pushButton_40.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_40.setIcon(icon2)
-        self.pushButton_40.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_40.setObjectName("pushButton_40")
-        self.pushButton_39 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_39.setGeometry(QtCore.QRect(140, 620, 131, 91))
-        self.pushButton_39.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_39.setIcon(icon2)
-        self.pushButton_39.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_39.setObjectName("pushButton_39")
-        self.pushButton_38 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_38.setGeometry(QtCore.QRect(0, 620, 131, 91))
-        self.pushButton_38.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"    border-top-left-radius: 15px;    /* Top-left corner rounded */\n"
-"    border-top-right-radius: 0px;    /* Top-right corner not rounded */\n"
-"    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */\n"
-"    border-bottom-left-radius: 15px; \n"
-"    \n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_38.setIcon(icon2)
-        self.pushButton_38.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_38.setObjectName("pushButton_38")
-        self.pushButton_41 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_41.setGeometry(QtCore.QRect(420, 620, 131, 91))
-        self.pushButton_41.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_41.setIcon(icon2)
-        self.pushButton_41.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_41.setObjectName("pushButton_41")
-        self.pushButton_42 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_42.setGeometry(QtCore.QRect(560, 620, 131, 91))
-        self.pushButton_42.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_42.setIcon(icon2)
-        self.pushButton_42.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_42.setObjectName("pushButton_42")
-        self.pushButton_43 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_43.setGeometry(QtCore.QRect(700, 620, 131, 91))
-        self.pushButton_43.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_43.setIcon(icon2)
-        self.pushButton_43.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_43.setObjectName("pushButton_43")
-        self.pushButton_44 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_44.setGeometry(QtCore.QRect(840, 620, 131, 91))
-        self.pushButton_44.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_44.setIcon(icon2)
-        self.pushButton_44.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_44.setObjectName("pushButton_44")
-        self.pushButton_45 = QtWidgets.QPushButton(parent=self.Movies)
-        self.pushButton_45.setGeometry(QtCore.QRect(980, 620, 131, 91))
-        self.pushButton_45.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_45.setIcon(icon2)
-        self.pushButton_45.setIconSize(QtCore.QSize(200, 100))
-        self.pushButton_45.setObjectName("pushButton_45")
-        self.stackedWidget.addWidget(self.Movies)
+        self.btn_play_video.setFont(font)
+        self.btn_play_video.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(229, 9, 20); /* Netflix red */\n"
+"    color: white;\n"
+"    border: none;\n"
+"    border-radius: 5px;\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(193, 17, 25); /* Darker red on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(148, 0, 0); /* Even darker red when pressed */\n"
+"}")
+        self.btn_play_video.setObjectName("btn_play_video")
+        self.stackedWidget.addWidget(self.Detail)
         self.My_List = QtWidgets.QWidget()
         self.My_List.setObjectName("My_List")
         self.label_10 = QtWidgets.QLabel(parent=self.My_List)
@@ -418,227 +352,413 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         font.setBold(True)
         self.label_10.setFont(font)
+        self.label_10.setStyleSheet("color: rgb(255, 255, 255);")
         self.label_10.setObjectName("label_10")
-        self.label_11 = QtWidgets.QLabel(parent=self.My_List)
-        self.label_11.setGeometry(QtCore.QRect(350, 280, 291, 31))
+        self.favorite_container = QtWidgets.QWidget(parent=self.My_List)
+        self.favorite_container.setGeometry(QtCore.QRect(0, 60, 1001, 591))
+        self.favorite_container.setStyleSheet("/* Movie Item Styles */\n"
+".MovieItemWidget {\n"
+"    background-color: black;\n"
+"    border: 1px solid rgba(255, 255, 255, 0.8);\n"
+"    border-radius: 15px;\n"
+"}\n"
+"\n"
+".MovieItemWidget QLabel {\n"
+"    color: white;\n"
+"    font-family: Geist;\n"
+"}\n"
+"\n"
+".MovieItemWidget .title {\n"
+"    font-size: 16px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+".MovieItemWidget .description {\n"
+"    font-size: 12px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .overlay {\n"
+"    background-color: rgba(0, 0, 0, 0.7);\n"
+"    border-radius: 15px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .play-button {\n"
+"    background-color: rgb(229, 9, 20);\n"
+"    border: none;\n"
+"    border-radius: 20px;\n"
+"    padding: 8px;\n"
+"    min-width: 40px;\n"
+"    min-height: 40px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .play-button:hover {\n"
+"    background-color: rgb(193, 17, 25);\n"
+"}\n"
+"\n"
+".MovieItemWidget .control-button {\n"
+"    background-color: rgba(42, 42, 42, 0.7);\n"
+"    border: 1px solid rgba(255, 255, 255, 0.7);\n"
+"    border-radius: 20px;\n"
+"    padding: 8px;\n"
+"    min-width: 40px;\n"
+"    min-height: 40px;\n"
+"}\n"
+"\n"
+".MovieItemWidget .control-button:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"}")
+        self.favorite_container.setObjectName("favorite_container")
+        self.stackedWidget.addWidget(self.My_List)
+        self.MediaPlayer = QtWidgets.QWidget()
+        self.MediaPlayer.setObjectName("MediaPlayer")
+        self.videoWidget = QtWidgets.QWidget(parent=self.MediaPlayer)
+        self.videoWidget.setGeometry(QtCore.QRect(0, 0, 1001, 520))
+        self.videoWidget.setStyleSheet("background-color: rgb(0, 0, 0);")
+        self.videoWidget.setObjectName("videoWidget")
+        self.durationBar = QtWidgets.QSlider(parent=self.MediaPlayer)
+        self.durationBar.setGeometry(QtCore.QRect(20, 540, 961, 20))
+        self.durationBar.setStyleSheet("QSlider::groove:horizontal {\n"
+"    border: none;\n"
+"    height: 6px;\n"
+"    background: rgba(255, 255, 255, 0.3);\n"
+"    border-radius: 3px;\n"
+"    margin: 0px;\n"
+"}\n"
+"\n"
+"QSlider::handle:horizontal {\n"
+"    background: rgb(229, 9, 20);\n"
+"    border: none;\n"
+"    width: 12px;\n"
+"    height: 12px;\n"
+"    border-radius: 6px;\n"
+"    margin: -3px 0;\n"
+"}\n"
+"\n"
+"QSlider::sub-page:horizontal {\n"
+"    background: rgb(229, 9, 20);\n"
+"    border: none;\n"
+"    height: 6px;\n"
+"    border-radius: 3px;\n"
+"}\n"
+"\n"
+"QSlider::add-page:horizontal {\n"
+"    background: rgba(255, 255, 255, 0.3);\n"
+"    border: none;\n"
+"    height: 6px;\n"
+"    border-radius: 3px;\n"
+"}")
+        self.durationBar.setOrientation(QtCore.Qt.Orientation.Horizontal)
+        self.durationBar.setObjectName("durationBar")
+        self.videoName = QtWidgets.QLabel(parent=self.MediaPlayer)
+        self.videoName.setGeometry(QtCore.QRect(440, 590, 111, 31))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(12)
+        font.setBold(True)
+        self.videoName.setFont(font)
+        self.videoName.setStyleSheet("QLabel {\n"
+"    color: white;\n"
+"    font-weight: bold;\n"
+"    background-color: transparent;\n"
+"}")
+        self.videoName.setObjectName("videoName")
+        self.volumeBtn = QtWidgets.QPushButton(parent=self.MediaPlayer)
+        self.volumeBtn.setGeometry(QtCore.QRect(170, 580, 32, 32))
+        self.volumeBtn.setStyleSheet("QPushButton {\n"
+"    background-color: transparent;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"    border-radius: 16px;\n"
+"}")
+        self.volumeBtn.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/volume-high-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.volumeBtn.setIcon(icon4)
+        self.volumeBtn.setIconSize(QtCore.QSize(24, 24))
+        self.volumeBtn.setObjectName("volumeBtn")
+        self.timeLabel = QtWidgets.QLabel(parent=self.MediaPlayer)
+        self.timeLabel.setGeometry(QtCore.QRect(20, 520, 111, 20))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
         font.setPointSize(10)
         font.setBold(True)
-        self.label_11.setFont(font)
-        self.label_11.setObjectName("label_11")
-        self.stackedWidget.addWidget(self.My_List)
-        self.Home = QtWidgets.QWidget()
-        self.Home.setObjectName("Home")
-        self.label_2 = QtWidgets.QLabel(parent=self.Home)
-        self.label_2.setGeometry(QtCore.QRect(70, 100, 241, 41))
+        self.timeLabel.setFont(font)
+        self.timeLabel.setStyleSheet("QLabel {\n"
+"    color: white;\n"
+"    background-color: transparent;\n"
+"}")
+        self.timeLabel.setObjectName("timeLabel")
+        self.volumeBar = QtWidgets.QSlider(parent=self.MediaPlayer)
+        self.volumeBar.setGeometry(QtCore.QRect(210, 586, 100, 20))
+        self.volumeBar.setStyleSheet("QSlider::groove:horizontal {\n"
+"    border: none;\n"
+"    height: 4px;\n"
+"    background: rgba(255, 255, 255, 0.3);\n"
+"    border-radius: 2px;\n"
+"    margin: 0px;\n"
+"}\n"
+"\n"
+"QSlider::handle:horizontal {\n"
+"    background: white;\n"
+"    border: none;\n"
+"    width: 8px;\n"
+"    height: 8px;\n"
+"    border-radius: 4px;\n"
+"    margin: -2px 0;\n"
+"}\n"
+"\n"
+"QSlider::sub-page:horizontal {\n"
+"    background: white;\n"
+"    border: none;\n"
+"    height: 4px;\n"
+"    border-radius: 2px;\n"
+"}\n"
+"\n"
+"QSlider::add-page:horizontal {\n"
+"    background: rgba(255, 255, 255, 0.3);\n"
+"    border: none;\n"
+"    height: 4px;\n"
+"    border-radius: 2px;\n"
+"}")
+        self.volumeBar.setOrientation(QtCore.Qt.Orientation.Horizontal)
+        self.volumeBar.setObjectName("volumeBar")
+        self.playBtn = QtWidgets.QPushButton(parent=self.MediaPlayer)
+        self.playBtn.setGeometry(QtCore.QRect(90, 580, 32, 32))
+        self.playBtn.setStyleSheet("QPushButton {\n"
+"    background-color: transparent;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"    border-radius: 16px;\n"
+"}")
+        self.playBtn.setText("")
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/play-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.playBtn.setIcon(icon5)
+        self.playBtn.setIconSize(QtCore.QSize(24, 24))
+        self.playBtn.setObjectName("playBtn")
+        self.rewindBtn = QtWidgets.QPushButton(parent=self.MediaPlayer)
+        self.rewindBtn.setGeometry(QtCore.QRect(50, 580, 32, 32))
+        self.rewindBtn.setStyleSheet("QPushButton {\n"
+"    background-color: transparent;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"    border-radius: 16px;\n"
+"}")
+        self.rewindBtn.setText("")
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/repeat-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.rewindBtn.setIcon(icon6)
+        self.rewindBtn.setIconSize(QtCore.QSize(24, 24))
+        self.rewindBtn.setObjectName("rewindBtn")
+        self.forwardBtn = QtWidgets.QPushButton(parent=self.MediaPlayer)
+        self.forwardBtn.setGeometry(QtCore.QRect(130, 580, 32, 32))
+        self.forwardBtn.setStyleSheet("QPushButton {\n"
+"    background-color: transparent;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"    border-radius: 16px;\n"
+"}")
+        self.forwardBtn.setText("")
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/shuffle-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.forwardBtn.setIcon(icon7)
+        self.forwardBtn.setIconSize(QtCore.QSize(24, 24))
+        self.forwardBtn.setObjectName("forwardBtn")
+        self.backBtn = QtWidgets.QPushButton(parent=self.MediaPlayer)
+        self.backBtn.setGeometry(QtCore.QRect(10, 580, 32, 32))
+        self.backBtn.setStyleSheet("QPushButton {\n"
+"    background-color: transparent;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(255, 255, 255, 0.1);\n"
+"    border-radius: 16px;\n"
+"}")
+        self.backBtn.setText("")
+        icon8 = QtGui.QIcon()
+        icon8.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/ThaiAn/Python-app/ui/../img/thumbs-up-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.backBtn.setIcon(icon8)
+        self.backBtn.setIconSize(QtCore.QSize(24, 24))
+        self.backBtn.setObjectName("backBtn")
+        self.stackedWidget.addWidget(self.MediaPlayer)
+        self.Info = QtWidgets.QWidget()
+        self.Info.setObjectName("Info")
+        self.frame = QtWidgets.QFrame(parent=self.Info)
+        self.frame.setGeometry(QtCore.QRect(229, 129, 601, 381))
+        self.frame.setStyleSheet("border-radius: 30px;\n"
+"background-color: rgb(56, 56, 56);")
+        self.frame.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
+        self.frame.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
+        self.frame.setObjectName("frame")
+        self.label_15 = QtWidgets.QLabel(parent=self.frame)
+        self.label_15.setGeometry(QtCore.QRect(60, 220, 121, 41))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
         font.setPointSize(16)
         font.setBold(True)
-        self.label_2.setFont(font)
-        self.label_2.setStyleSheet("    background-color: rgba(255, 255, 255, 0.00001); /* Semi-transparent background */\n"
+        self.label_15.setFont(font)
+        self.label_15.setStyleSheet("background-color: transparent;\n"
 "color: rgb(255, 255, 255);")
-        self.label_2.setObjectName("label_2")
-        self.pushButton_8 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_8.setGeometry(QtCore.QRect(180, 280, 141, 41))
+        self.label_15.setObjectName("label_15")
+        self.label_12 = QtWidgets.QLabel(parent=self.frame)
+        self.label_12.setGeometry(QtCore.QRect(60, 270, 121, 41))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
-        font.setPointSize(-1)
-        font.setBold(True)
-        self.pushButton_8.setFont(font)
-        self.pushButton_8.setStyleSheet("    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */\n"
-"    color: white;                               /* White text */\n"
-"    font-size: 14px;                            /* Font size */\n"
-"    font-weight: bold;                          /* Bold text */\n"
-"    border: none;                               /* No border */\n"
-"    border-radius: 10px;                        /* Rounded corners */\n"
-"    padding: 10px 20px;                         /* Padding for size */\n"
-"    text-align: left;                           /* Align text to the left */\n"
-"")
-        icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/info-badge.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_8.setIcon(icon3)
-        self.pushButton_8.setIconSize(QtCore.QSize(30, 30))
-        self.pushButton_8.setObjectName("pushButton_8")
-        self.pushButton_4 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_4.setGeometry(QtCore.QRect(30, 280, 111, 41))
-        font = QtGui.QFont()
-        font.setFamily("Geist SemiBold")
-        font.setBold(True)
-        self.pushButton_4.setFont(font)
-        self.pushButton_4.setStyleSheet("border-radius: 10px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
-        icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/play-solid.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_4.setIcon(icon4)
-        self.pushButton_4.setIconSize(QtCore.QSize(20, 20))
-        self.pushButton_4.setObjectName("pushButton_4")
-        self.label = QtWidgets.QLabel(parent=self.Home)
-        self.label.setGeometry(QtCore.QRect(10, 380, 241, 41))
-        font = QtGui.QFont()
-        font.setFamily("Geist SemiBold")
-        font.setPointSize(14)
-        font.setBold(True)
-        self.label.setFont(font)
-        self.label.setStyleSheet("\n"
-"    background-color: transparent;       /* Transparent background */\n"
-"    border: none;                        /* No borders */\n"
-"    padding: 10px;                       /* Padding for spacing */\n"
-"")
-        self.label.setObjectName("label")
-        self.pushButton_9 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_9.setGeometry(QtCore.QRect(10, 420, 171, 221))
-        font = QtGui.QFont()
-        font.setFamily("Parkinsans Medium")
-        self.pushButton_9.setFont(font)
-        self.pushButton_9.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"    border-top-left-radius: 15px;    /* Top-left corner rounded */\n"
-"    border-top-right-radius: 0px;    /* Top-right corner not rounded */\n"
-"    border-bottom-right-radius: 0px; /* Bottom-right corner not rounded */\n"
-"    border-bottom-left-radius: 15px; \n"
-"    \n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_9.setText("")
-        self.pushButton_9.setIcon(icon2)
-        self.pushButton_9.setIconSize(QtCore.QSize(1000, 2000))
-        self.pushButton_9.setObjectName("pushButton_9")
-        self.pushButton_10 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_10.setGeometry(QtCore.QRect(190, 420, 171, 221))
-        font = QtGui.QFont()
-        font.setFamily("Parkinsans Medium")
-        self.pushButton_10.setFont(font)
-        self.pushButton_10.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_10.setText("")
-        self.pushButton_10.setIcon(icon2)
-        self.pushButton_10.setIconSize(QtCore.QSize(1000, 2000))
-        self.pushButton_10.setObjectName("pushButton_10")
-        self.pushButton_11 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_11.setGeometry(QtCore.QRect(370, 420, 171, 221))
-        font = QtGui.QFont()
-        font.setFamily("Parkinsans Medium")
-        self.pushButton_11.setFont(font)
-        self.pushButton_11.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_11.setText("")
-        self.pushButton_11.setIcon(icon2)
-        self.pushButton_11.setIconSize(QtCore.QSize(1000, 2000))
-        self.pushButton_11.setObjectName("pushButton_11")
-        self.pushButton_12 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_12.setGeometry(QtCore.QRect(550, 420, 171, 221))
-        font = QtGui.QFont()
-        font.setFamily("Parkinsans Medium")
-        self.pushButton_12.setFont(font)
-        self.pushButton_12.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_12.setText("")
-        self.pushButton_12.setIcon(icon2)
-        self.pushButton_12.setIconSize(QtCore.QSize(1000, 2000))
-        self.pushButton_12.setObjectName("pushButton_12")
-        self.pushButton_13 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_13.setGeometry(QtCore.QRect(730, 420, 171, 221))
-        font = QtGui.QFont()
-        font.setFamily("Parkinsans Medium")
-        self.pushButton_13.setFont(font)
-        self.pushButton_13.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_13.setText("")
-        self.pushButton_13.setIcon(icon2)
-        self.pushButton_13.setIconSize(QtCore.QSize(1000, 2000))
-        self.pushButton_13.setObjectName("pushButton_13")
-        self.pushButton_14 = QtWidgets.QPushButton(parent=self.Home)
-        self.pushButton_14.setGeometry(QtCore.QRect(910, 420, 171, 221))
-        font = QtGui.QFont()
-        font.setFamily("Parkinsans Medium")
-        self.pushButton_14.setFont(font)
-        self.pushButton_14.setStyleSheet("border: 1px solid rgba(255, 255, 255, 0.8);\n"
-"background-color: rgb(0, 0, 0);")
-        self.pushButton_14.setText("")
-        self.pushButton_14.setIcon(icon2)
-        self.pushButton_14.setIconSize(QtCore.QSize(1000, 2000))
-        self.pushButton_14.setObjectName("pushButton_14")
-        self.label_3 = QtWidgets.QLabel(parent=self.Home)
-        self.label_3.setGeometry(QtCore.QRect(70, 150, 211, 31))
-        font = QtGui.QFont()
-        font.setFamily("Geist SemiBold")
-        font.setPointSize(-1)
-        font.setBold(True)
-        self.label_3.setFont(font)
-        self.label_3.setStyleSheet("\n"
-"    color: white;                     /* White text */\n"
-"    font-size: 14px;                  /* Text size */\n"
-"    text-align: left;                 /* Left-aligned */\n"
-"    text-shadow: 1px 1px 5px #000000; /* Subtle shadow for visibility */\n"
-"    background-color: rgba(255, 255, 255, 0.00001); /* Semi-transparent background */")
-        self.label_3.setObjectName("label_3")
-        self.label_4 = QtWidgets.QLabel(parent=self.Home)
-        self.label_4.setGeometry(QtCore.QRect(-20, 10, 1011, 381))
-        font = QtGui.QFont()
-        font.setFamily("Parkinsans Medium")
         font.setPointSize(16)
-        self.label_4.setFont(font)
-        self.label_4.setText("")
-        self.label_4.setPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../img/Screenshot 2024-12-26 202549.png"))
-        self.label_4.setScaledContents(True)
-        self.label_4.setWordWrap(False)
-        self.label_4.setObjectName("label_4")
-        self.label_4.raise_()
-        self.label_2.raise_()
-        self.pushButton_8.raise_()
-        self.pushButton_4.raise_()
-        self.label.raise_()
-        self.pushButton_9.raise_()
-        self.pushButton_10.raise_()
-        self.pushButton_11.raise_()
-        self.pushButton_12.raise_()
-        self.pushButton_13.raise_()
-        self.pushButton_14.raise_()
-        self.label_3.raise_()
-        self.stackedWidget.addWidget(self.Home)
+        font.setBold(True)
+        self.label_12.setFont(font)
+        self.label_12.setStyleSheet("background-color: transparent;\n"
+"color: rgb(255, 255, 255);")
+        self.label_12.setObjectName("label_12")
+        self.txt_name = QtWidgets.QLineEdit(parent=self.frame)
+        self.txt_name.setGeometry(QtCore.QRect(220, 130, 351, 31))
+        self.txt_name.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 15px;\n"
+"color: black;")
+        self.txt_name.setText("")
+        self.txt_name.setObjectName("txt_name")
+        self.txt_email = QtWidgets.QLineEdit(parent=self.frame)
+        self.txt_email.setGeometry(QtCore.QRect(220, 180, 351, 31))
+        self.txt_email.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 15px;\n"
+"color: black;")
+        self.txt_email.setObjectName("txt_email")
+        self.d_dob = QtWidgets.QDateEdit(parent=self.frame)
+        self.d_dob.setGeometry(QtCore.QRect(220, 230, 351, 31))
+        self.d_dob.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 15px;\n"
+"color: black;")
+        self.d_dob.setObjectName("d_dob")
+        self.cb_gender = QtWidgets.QComboBox(parent=self.frame)
+        self.cb_gender.setGeometry(QtCore.QRect(220, 270, 121, 31))
+        self.cb_gender.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 15px;\n"
+"color: black;")
+        self.cb_gender.setObjectName("cb_gender")
+        self.cb_gender.addItem("")
+        self.cb_gender.addItem("")
+        self.cb_gender.addItem("")
+        self.btn_update_info = QtWidgets.QPushButton(parent=self.frame)
+        self.btn_update_info.setGeometry(QtCore.QRect(240, 330, 100, 32))
+        self.btn_update_info.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 15px;\n"
+"color: black;")
+        self.btn_update_info.setObjectName("btn_update_info")
+        self.label_13 = QtWidgets.QLabel(parent=self.Info)
+        self.label_13.setGeometry(QtCore.QRect(470, 80, 131, 41))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(22)
+        font.setBold(True)
+        self.label_13.setFont(font)
+        self.label_13.setStyleSheet("background-color: transparent;\n"
+"color: rgb(255, 255, 255);")
+        self.label_13.setObjectName("label_13")
+        self.label_14 = QtWidgets.QLabel(parent=self.Info)
+        self.label_14.setGeometry(QtCore.QRect(290, 305, 121, 41))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(16)
+        font.setBold(True)
+        self.label_14.setFont(font)
+        self.label_14.setStyleSheet("background-color: transparent;\n"
+"color: rgb(255, 255, 255);")
+        self.label_14.setObjectName("label_14")
+        self.btn_avatar = QtWidgets.QPushButton(parent=self.Info)
+        self.btn_avatar.setGeometry(QtCore.QRect(465, 140, 111, 110))
+        self.btn_avatar.setStyleSheet("QPushButton {\n"
+"    background-color: black;       /* Black background */\n"
+"    border: 2px solid solid; /* Transparent border by default */\n"
+"    border-color: rgb(255, 255, 255);\n"
+"    border-radius: 10px;            /* Rounded corners */\n"
+"    padding: 10px;                 /* Default padding */\n"
+"    background-repeat: no-repeat; /* No repeating the image */\n"
+"    background-position: center;  /* Center the icon */\n"
+"    transition: all 0.2s ease;    /* Smooth transition */\n"
+"    color: rgb(255, 255, 255);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    border: 2px solid white;       /* White border on hover */\n"
+"    padding: 8px;                  /* Reduced padding to simulate size increase */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #333333;     /* Darker background on press */\n"
+"    padding: 6px;                  /* Further reduced padding for pressed state */\n"
+"}\n"
+"")
+        self.btn_avatar.setText("")
+        self.btn_avatar.setObjectName("btn_avatar")
+        self.label_16 = QtWidgets.QLabel(parent=self.Info)
+        self.label_16.setGeometry(QtCore.QRect(290, 255, 121, 41))
+        font = QtGui.QFont()
+        font.setFamily("Geist SemiBold")
+        font.setPointSize(16)
+        font.setBold(True)
+        self.label_16.setFont(font)
+        self.label_16.setStyleSheet("background-color: transparent;\n"
+"color: rgb(255, 255, 255);")
+        self.label_16.setObjectName("label_16")
+        self.stackedWidget.addWidget(self.Info)
         self.nav_home_btn = QtWidgets.QPushButton(parent=self.centralwidget)
         self.nav_home_btn.setGeometry(QtCore.QRect(100, 20, 111, 41))
         font = QtGui.QFont()
         font.setFamily("Geist SemiBold")
-        font.setPointSize(-1)
         font.setBold(True)
         self.nav_home_btn.setFont(font)
-        self.nav_home_btn.setStyleSheet("\n"
-"    background-color: rgba(0, 0, 0, 0.7); /* Transparent black */\n"
-"    color: white;                         /* White text */\n"
-"    font-size: 14px;                      /* Text size */\n"
-"    padding: 10px;                        /* Padding for spacing */\n"
-"    border-radius: 10px;")
-        self.nav_home_btn.setObjectName("nav_home_btn")
-        self.pushButton_46 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButton_46.setGeometry(QtCore.QRect(950, 20, 31, 31))
-        self.pushButton_46.setStyleSheet("\n"
-"    background-color: transparent;       /* Transparent background */\n"
-"    border: 2px solid white;             /* Thin white border */\n"
-"    border-radius: 15px;                 /* Circular shape (width = height) */\n"
-"    padding: 10px;                       /* Space for the icon */\n"
-"    background-repeat: no-repeat;\n"
-"    background-position: center;\n"
-"    background-size: cover;\n"
+        self.nav_home_btn.setStyleSheet("QPushButton {\n"
+"    background-color: black;       /* Black background */\n"
+"    border: 2px solid solid; /* Transparent border by default */\n"
+"    border-color: rgb(255, 255, 255);\n"
+"    border-radius: 10px;            /* Rounded corners */\n"
+"    padding: 10px;                 /* Default padding */\n"
+"    background-repeat: no-repeat; /* No repeating the image */\n"
+"    background-position: center;  /* Center the icon */\n"
+"    transition: all 0.2s ease;    /* Smooth transition */\n"
+"    color: rgb(255, 255, 255);\n"
+"}\n"
 "\n"
+"QPushButton:hover {\n"
+"    border: 2px solid white;       /* White border on hover */\n"
+"    padding: 8px;                  /* Reduced padding to simulate size increase */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #333333;     /* Darker background on press */\n"
+"    padding: 6px;                  /* Further reduced padding for pressed state */\n"
+"}\n"
 "")
-        self.pushButton_46.setText("")
-        icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("/Users/pinxun/Documents/MindX/PTA/PTA07/FINAL PROJECT/ThaiAn/Python-app/ui/../../../../Pictures/Screenshots/doge.webp"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_46.setIcon(icon5)
-        self.pushButton_46.setIconSize(QtCore.QSize(49, 30))
-        self.pushButton_46.setObjectName("pushButton_46")
+        self.nav_home_btn.setObjectName("nav_home_btn")
+        self.txt_search = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.txt_search.setGeometry(QtCore.QRect(610, 20, 331, 41))
+        self.txt_search.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 15px;\n"
+"color: black;")
+        self.txt_search.setObjectName("txt_search")
         self.stackedWidget.raise_()
         self.pushButton.raise_()
         self.nav_movie_btn.raise_()
         self.btn_mylist_btn.raise_()
-        self.pushButton_7.raise_()
+        self.btn_search.raise_()
         self.nav_home_btn.raise_()
-        self.pushButton_46.raise_()
+        self.txt_search.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1024, 25))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1024, 24))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -646,7 +766,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(2)
+        self.stackedWidget.setCurrentIndex(4)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -654,35 +774,17 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.nav_movie_btn.setText(_translate("MainWindow", "Movies"))
         self.btn_mylist_btn.setText(_translate("MainWindow", "My List"))
-        self.label_5.setText(_translate("MainWindow", "Movies"))
-        self.comboBox.setItemText(0, _translate("MainWindow", "Genres"))
-        self.comboBox.setItemText(1, _translate("MainWindow", "New Item 1"))
-        self.comboBox.setItemText(2, _translate("MainWindow", "New Item 2"))
-        self.comboBox.setItemText(3, _translate("MainWindow", "New Item 3"))
-        self.comboBox.setItemText(4, _translate("MainWindow", "New Item 4"))
-        self.comboBox.setItemText(5, _translate("MainWindow", "New Item 5"))
-        self.comboBox.setItemText(6, _translate("MainWindow", "New Item 6"))
-        self.comboBox.setItemText(7, _translate("MainWindow", "New Item 7"))
-        self.label_6.setText(_translate("MainWindow", "Name"))
-        self.pushButton_21.setText(_translate("MainWindow", "Movie"))
-        self.label_7.setText(_translate("MainWindow", "Name"))
-        self.pushButton_29.setText(_translate("MainWindow", "Movie"))
-        self.label_8.setText(_translate("MainWindow", "Name"))
-        self.pushButton_37.setText(_translate("MainWindow", "Movie"))
-        self.label_9.setText(_translate("MainWindow", "Name"))
-        self.pushButton_40.setText(_translate("MainWindow", "Movie"))
-        self.pushButton_39.setText(_translate("MainWindow", "Movie"))
-        self.pushButton_38.setText(_translate("MainWindow", "Movie"))
-        self.pushButton_41.setText(_translate("MainWindow", "Movie"))
-        self.pushButton_42.setText(_translate("MainWindow", "Movie"))
-        self.pushButton_43.setText(_translate("MainWindow", "Movie"))
-        self.pushButton_44.setText(_translate("MainWindow", "Movie"))
-        self.pushButton_45.setText(_translate("MainWindow", "Movie"))
+        self.btn_play_video.setText(_translate("MainWindow", "Play"))
         self.label_10.setText(_translate("MainWindow", "My List"))
-        self.label_11.setText(_translate("MainWindow", "You haven\'t added any titles to your list yet."))
-        self.label_2.setText(_translate("MainWindow", "Klaus"))
-        self.pushButton_8.setText(_translate("MainWindow", "More Info"))
-        self.pushButton_4.setText(_translate("MainWindow", "Play"))
-        self.label.setText(_translate("MainWindow", "Your next watch"))
-        self.label_3.setText(_translate("MainWindow", "Lorem ipsum odor amet, consectetuer adipiscing elit. Rhoncus eu eros rutrum ligula vel integer nam ornare curabitur. Gravida ante fermentum ad, senectus fusce egestas morbi. Tortor rutrum commodo lobortis nisl nisi volutpat cubilia. Ante taciti mauris vivamus platea dolor. Metus malesuada per torquent phasellus odio justo urna. Dui non urna volutpat venenatis magnis posuere aliquam ac. Nec duis suspendisse eu finibus; iaculis commodo pulvinar mattis. Pellentesque ad condimentum ipsum posuere facilisi. Mus nullam sed pharetra fringilla elit non."))
-        self.nav_home_btn.setText(_translate("MainWindow", "Home"))
+        self.videoName.setText(_translate("MainWindow", "Video Name"))
+        self.timeLabel.setText(_translate("MainWindow", "00:00:00/00:00:00"))
+        self.label_15.setText(_translate("MainWindow", "Birthday:"))
+        self.label_12.setText(_translate("MainWindow", "Gender:"))
+        self.cb_gender.setItemText(0, _translate("MainWindow", "None"))
+        self.cb_gender.setItemText(1, _translate("MainWindow", "Male"))
+        self.cb_gender.setItemText(2, _translate("MainWindow", "Female"))
+        self.btn_update_info.setText(_translate("MainWindow", "Save"))
+        self.label_13.setText(_translate("MainWindow", "User info"))
+        self.label_14.setText(_translate("MainWindow", "Email:"))
+        self.label_16.setText(_translate("MainWindow", "Username:"))
+        self.nav_home_btn.setText(_translate("MainWindow", "Account"))
