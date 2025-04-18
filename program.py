@@ -107,6 +107,8 @@ class Register(QMainWindow):
         
         self.btn_eye1.clicked.connect(lambda: self.hiddenOrShow(self.password_input, self.btn_eye1))
         self.btn_eye2.clicked.connect(lambda: self.hiddenOrShow(self.confirm_password_input, self.btn_eye2))
+        self.btn_register.clicked.connect(self.register)
+        self.btn_login.clicked.connect(self.show_login)
         
     def hiddenOrShow(self, input:QLineEdit, button:QPushButton):
         if input.echoMode() == QLineEdit.EchoMode.Password:
